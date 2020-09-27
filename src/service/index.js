@@ -1,9 +1,8 @@
 import React, { Fragment } from 'react'
-import PropTypes from 'prop-types'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
-const ServiceCTP = (props) => {
+const ServiceCTP = () => {
   return (
     <Fragment>
       <NavBar />
@@ -14,10 +13,10 @@ const ServiceCTP = (props) => {
         <h1> Services</h1>
 
         <hr />
-        <div className="background" style={{ backgroundColor: '#ddd' }}>
-          <div class="items">
+        {/* <div className="background" style={{ backgroundColor: '#ddd' }}>
+          <div className="items">
             <div>
-              <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/preview/02_o_car.jpg" />
+              <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190720/gallery/preview/02_o_car.jpg" alt="" />
             </div>
             <div>
               <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190715/gallery/preview/03_r_car.jpg" />
@@ -41,26 +40,26 @@ const ServiceCTP = (props) => {
               <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565190714/gallery/preview/01_b_car.jpg" />
             </div>
           </div>
-        </div>
+        </div> */}
         <hr />
         {/* Next Container */}
 
-        <div class="how-section1">
-          <div class="row">
-            <div class="col-md-6 how-img">
+        <div className="how-section1">
+          <div className="row">
+            <div className="col-md-6 how-img">
               <img
                 src="https://image.ibb.co/dDW27U/Work_Section2_freelance_img1.png"
-                class="rounded-circle img-fluid"
+                className="rounded-circle img-fluid"
                 alt=""
               />
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <h4>Find rewarding projects</h4>
-              <h4 class="subheading">
+              <h4 className="subheading">
                 GetLance is a great place to find more clients, and to run and
                 grow your own freelance business.
               </h4>
-              <p class="text-muted">
+              <p className="text-muted">
                 Freedom to work on ideal projects. On GetLance, you run your own
                 business and choose your own clients and projects. Just complete
                 your profile and we’ll highlight ideal jobs. Also search
@@ -72,14 +71,14 @@ const ServiceCTP = (props) => {
               </p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <h4>Get hired quickly</h4>
-              <h4 class="subheading">
+              <h4 className="subheading">
                 GetLance makes it easy to connect with clients and begin doing
                 great work.
               </h4>
-              <p class="text-muted">
+              <p className="text-muted">
                 Streamlined hiring. GetLance’s sophisticated algorithms
                 highlight projects you’re a great fit for. Top Rated and Rising
                 Talent programs. Enjoy higher visibility with the added status
@@ -88,30 +87,30 @@ const ServiceCTP = (props) => {
                 repeat relationships with their clients.
               </p>
             </div>
-            <div class="col-md-6 how-img">
+            <div className="col-md-6 how-img">
               <img
                 src="https://image.ibb.co/cHgKnU/Work_Section2_freelance_img2.png"
-                class="rounded-circle img-fluid"
+                className="rounded-circle img-fluid"
                 alt=""
               />
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6 how-img">
+          <div className="row">
+            <div className="col-md-6 how-img">
               <img
                 src="https://image.ibb.co/ctSLu9/Work_Section2_freelance_img3.png"
-                class="rounded-circle img-fluid"
+                className="rounded-circle img-fluid"
                 alt=""
               />
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <h4>Work efficiently, effectively.</h4>
-              <h4 class="subheading">
+              <h4 className="subheading">
                 With GetLance, you have the freedom and flexibility to control
                 when, where, and how you work. Each project includes an online
                 workspace shared by you and your client, allowing you to:
               </h4>
-              <p class="text-muted">
+              <p className="text-muted">
                 Send and receive files. Deliver digital assets in a secure
                 environment. Share feedback in real time. Use GetLance Messages
                 to communicate via text, chat, or video. Use our mobile app.
@@ -120,15 +119,15 @@ const ServiceCTP = (props) => {
               </p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <h4>Get paid on time</h4>
-              <h4 class="subheading">
+              <h4 className="subheading">
                 All projects include GetLance Payment Protection — helping
                 ensure that you get paid for all work successfully completed
                 through the freelancing website.
               </h4>
-              <p class="text-muted">
+              <p className="text-muted">
                 All invoices and payments happen through GetLance. Count on a
                 simple and streamlined process. Hourly and fixed-price projects.
                 For hourly work, submit timesheets through GetLance. For
@@ -138,10 +137,10 @@ const ServiceCTP = (props) => {
                 PayPal to wire transfer and more.
               </p>
             </div>
-            <div class="col-md-6 how-img">
+            <div className="col-md-6 how-img">
               <img
                 src="https://image.ibb.co/gQ9iE9/Work_Section2_freelance_img4.png"
-                class="rounded-circle img-fluid"
+                className="rounded-circle img-fluid"
                 alt=""
               />
             </div>
@@ -187,7 +186,5 @@ const ServiceCTP = (props) => {
     </Fragment>
   )
 }
-
-ServiceCTP.propTypes = {}
 
 export default ServiceCTP

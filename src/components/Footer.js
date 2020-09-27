@@ -3,23 +3,24 @@ import React, { Fragment } from 'react'
 const Footer = (props) => {
   return (
     <Fragment>
-      <section class="about-sec parallax-section" id="about">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <div class="embed-responsive embed-responsive-16by9">
+      <section className="about-sec parallax-section" id="about">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-7">
+              <div className="embed-responsive embed-responsive-16by9">
                 <iframe
+                  title="YT"
                   width="560"
                   height="315"
                   src="https://www.youtube.com/embed/xQXB57EcBVY"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
-                  class="embed-responsive-item"
+                  className="embed-responsive-item"
                 ></iframe>
               </div>
             </div>
-            <div class="col-md-4">
+            <div className="col-md-4">
               <p>
                 Our greatest happiness does not depend on the condition of life
                 in which chance has placed us, but is always the result of a
@@ -33,7 +34,7 @@ const Footer = (props) => {
                 living a happy, healthy and rewarding life.
               </p>
               <p>
-                <a href="#" class="btn btn-transparent-white btn-capsul">
+                <a href="#" className="btn btn-transparent-white btn-capsul">
                   Explore More
                 </a>
               </p>
@@ -45,89 +46,89 @@ const Footer = (props) => {
       {/* Second Footer */}
 
       <section id="footer">
-        <div class="container">
-          <div class="row text-center text-xs-center text-sm-left text-md-left">
-            <div class="col-xs-12 col-sm-4 col-md-4">
+        <div className="container">
+          <div className="row text-center text-xs-center text-sm-left text-md-left">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <h5>Quick links</h5>
-              <ul class="list-unstyled quick-links">
+              <ul className="list-unstyled quick-links">
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>Home
+                    <i className="fa fa-angle-double-right"></i>Home
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>About
+                    <i className="fa fa-angle-double-right"></i>About
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>FAQ
+                    <i className="fa fa-angle-double-right"></i>FAQ
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>Get Started
+                    <i className="fa fa-angle-double-right"></i>Get Started
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>Videos
+                    <i className="fa fa-angle-double-right"></i>Videos
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <h5>Quick links</h5>
-              <ul class="list-unstyled quick-links">
+              <ul className="list-unstyled quick-links">
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>Home
+                    <i className="fa fa-angle-double-right"></i>Home
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>About
+                    <i className="fa fa-angle-double-right"></i>About
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>FAQ
+                    <i className="fa fa-angle-double-right"></i>FAQ
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>Get Started
+                    <i className="fa fa-angle-double-right"></i>Get Started
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>Videos
+                    <i className="fa fa-angle-double-right"></i>Videos
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
+            <div className="col-xs-12 col-sm-4 col-md-4">
               <h5>Quick links</h5>
-              <ul class="list-unstyled quick-links">
+              <ul className="list-unstyled quick-links">
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>Home
+                    <i className="fa fa-angle-double-right"></i>Home
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>About
+                    <i className="fa fa-angle-double-right"></i>About
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>FAQ
+                    <i className="fa fa-angle-double-right"></i>FAQ
                   </a>
                 </li>
                 <li>
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-angle-double-right"></i>Get Started
+                    <i className="fa fa-angle-double-right"></i>Get Started
                   </a>
                 </li>
                 <li>
@@ -135,50 +136,54 @@ const Footer = (props) => {
                     href="https://wwwe.sunlimetech.com"
                     title="Design and developed by"
                   >
-                    <i class="fa fa-angle-double-right"></i>Imprint
+                    <i className="fa fa-angle-double-right"></i>Imprint
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-              <ul class="list-unstyled list-inline social text-center">
-                <li class="list-inline-item">
+          <div className="row">
+            <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+              <ul className="list-unstyled list-inline social text-center">
+                <li className="list-inline-item">
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-facebook"></i>
+                    <i className="fa fa-facebook"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-twitter"></i>
+                    <i className="fa fa-twitter"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-instagram"></i>
+                    <i className="fa fa-instagram"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
+                <li className="list-inline-item">
                   <a href="https://www.fiverr.com/share/qb8D02">
-                    <i class="fa fa-google-plus"></i>
+                    <i className="fa fa-google-plus"></i>
                   </a>
                 </li>
-                <li class="list-inline-item">
-                  <a href="https://www.fiverr.com/share/qb8D02" target="_blank">
-                    <i class="fa fa-envelope"></i>
+                <li className="list-inline-item">
+                  <a
+                    href="https://www.fiverr.com/share/qb8D02"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="fa fa-envelope"></i>
                   </a>
                 </li>
               </ul>
             </div>
             <hr />
           </div>
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <div className="row">
+            <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
               <p>
                 <u></u> PAFINDO - PACIFIC FIRSTRACK INDONESIA
               </p>
-              <p class="h6">©2020. ALL RIGHTS RESERVED</p>
+              <p className="h6">©2020. ALL RIGHTS RESERVED</p>
             </div>
             <hr />
           </div>

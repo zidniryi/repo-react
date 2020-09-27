@@ -13,7 +13,7 @@ export const IconContact = ({ name, iconName }) => {
         }}
       >
         <i
-          class={iconName}
+          className={iconName}
           aria-hidden="true"
           style={{
             // width: 20,

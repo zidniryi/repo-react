@@ -14,8 +14,8 @@ const Visi = () => {
           Our Mission & Vision :
         </h2>
         <hr />
-        <div class="row">
-          <div class="col bg">
+        <div className="row">
+          <div className="col bg">
             <b> Our Mission & Vision :</b>
             <p>
               Memberikan layanan terbaik dalam hal pengadaan suku cadang untuk
@@ -25,7 +25,7 @@ const Visi = () => {
               prioritas utama kami.
             </p>
           </div>
-          <div class="col bg">
+          <div className="col bg">
             <img
               src="https://www.trakindo.co.id/sites/default/files/inline-images/day1trakindo_0173.jpg"
               alt=""

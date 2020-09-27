@@ -11,11 +11,11 @@ const Gallery = () => {
         className="container"
         style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
       >
-        <div class="row">
-          <div class="row">
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+        <div className="row">
+          <div className="row">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -24,15 +24,15 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -41,16 +41,16 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
               </a>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -59,15 +59,15 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -76,15 +76,15 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -93,16 +93,16 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
               </a>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -111,15 +111,15 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -128,15 +128,15 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -145,16 +145,16 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
               </a>
             </div>
 
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -163,15 +163,15 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/305070/pexels-photo-305070.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -180,15 +180,15 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/853168/pexels-photo-853168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
               </a>
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
-                class="thumbnail"
+                className="thumbnail"
                 href="#"
                 data-image-id=""
                 data-toggle="modal"
@@ -197,7 +197,7 @@ const Gallery = () => {
                 data-target="#image-gallery"
               >
                 <img
-                  class="img-thumbnail"
+                  className="img-thumbnail"
                   src="https://images.pexels.com/photos/158971/pexels-photo-158971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                   alt="Another alt text"
                 />
@@ -206,44 +206,44 @@ const Gallery = () => {
           </div>
 
           <div
-            class="modal fade"
+            className="modal fade"
             id="image-gallery"
             tabindex="-1"
             role="dialog"
             aria-labelledby="myModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4 class="modal-title" id="image-gallery-title"></h4>
-                  <button type="button" class="close" data-dismiss="modal">
+            <div className="modal-dialog modal-lg">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h4 className="modal-title" id="image-gallery-title"></h4>
+                  <button type="button" className="close" data-dismiss="modal">
                     <span aria-hidden="true">×</span>
-                    <span class="sr-only">Close</span>
+                    <span className="sr-only">Close</span>
                   </button>
                 </div>
-                <div class="modal-body">
+                <div className="modal-body">
                   <img
                     id="image-gallery-image"
-                    class="img-responsive col-md-12"
+                    className="img-responsive col-md-12"
                     src=""
                   />
                 </div>
-                <div class="modal-footer">
+                <div className="modal-footer">
                   <button
                     type="button"
-                    class="btn btn-secondary float-left"
+                    className="btn btn-secondary float-left"
                     id="show-previous-image"
                   >
-                    <i class="fa fa-arrow-left"></i>
+                    <i className="fa fa-arrow-left"></i>
                   </button>
 
                   <button
                     type="button"
                     id="show-next-image"
-                    class="btn btn-secondary float-right"
+                    className="btn btn-secondary float-right"
                   >
-                    <i class="fa fa-arrow-right"></i>
+                    <i className="fa fa-arrow-right"></i>
                   </button>
                 </div>
               </div>

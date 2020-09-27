@@ -115,6 +115,7 @@ const Product = () => {
                       className="blue-text"
                       href="#/live/get-shit-done-pro"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Preview
                     </a>
@@ -171,6 +172,7 @@ const Product = () => {
                       className="blue-text"
                       href="#/live/get-shit-done-pro"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Preview
                     </a>
@@ -227,6 +229,7 @@ const Product = () => {
                       className="blue-text"
                       href="#/live/get-shit-done-pro"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Preview
                     </a>
@@ -283,6 +286,7 @@ const Product = () => {
                       className="blue-text"
                       href="#/live/get-shit-done-pro"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Preview
                     </a>
@@ -339,6 +343,7 @@ const Product = () => {
                       className="blue-text"
                       href="#/live/coming-sssoon-page"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       Live Preview
                     </a>

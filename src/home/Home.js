@@ -24,7 +24,7 @@ const Home = () => {
           </div>
           <hr />
           <h4>CTP® FEATURED REPLACEMENT CATERPILLAR® PARTS</h4>
-          <div class="row" id="ads">
+          <div className="row" id="ads">
             <CardProduct />
             <CardProduct />
             <CardProduct />

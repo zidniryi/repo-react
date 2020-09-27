@@ -12,7 +12,7 @@ const Catalog = () => {
         style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
       >
         <h1>E-Catalog</h1>
-        <div class="row">
+        <div className="row">
           <CatalogItem />
           <CatalogItem />
           <CatalogItem />

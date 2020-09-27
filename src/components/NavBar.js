@@ -20,7 +20,7 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button> */}
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNavDropdown"
@@ -28,7 +28,10 @@ const NavBar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span style={{ color: 'red' }} class="navbar-toggler-icon"></span>
+            <span
+              style={{ color: 'red' }}
+              className="navbar-toggler-icon"
+            ></span>
           </button>
           <a className="navbar-brand mx-auto" href="#">
             <img

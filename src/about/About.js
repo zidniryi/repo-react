@@ -93,21 +93,12 @@ const About = () => {
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
+              alt=""
             />
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
-            />
-          </div>
-
-          <div className="d-flex flex-column">
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
-            />
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
+              alt=""
             />
           </div>
 
@@ -115,20 +106,37 @@ const About = () => {
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
+              alt=""
             />
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
+              alt=""
+            />
+          </div>
+
+          <div className="d-flex flex-column">
+            <img
+              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
+              className="img-fluid"
+              alt=""
+            />
+            <img
+              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
+              className="img-fluid"
+              alt=""
             />
           </div>
           <div className="d-flex flex-column">
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
+              alt=""
             />
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
+              alt=""
             />
           </div>
         </div>

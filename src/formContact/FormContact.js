@@ -1,14 +1,13 @@
 import React, { Fragment } from 'react'
-import PropTypes from 'prop-types'
 import NavBar from '../components/NavBar'
 
-const FormContact = (props) => {
+const FormContact = () => {
   return (
     <Fragment>
       <NavBar />
       <div className="body-form" style={{ marginTop: 100 + 'px' }}>
-        <div class="container contact-form">
-          <div class="contact-image">
+        <div className="container contact-form">
+          <div className="contact-image">
             <img
               src="https://image.ibb.co/kUagtU/rocket_contact.png"
               alt="rocket_contact"
@@ -19,49 +18,49 @@ const FormContact = (props) => {
               Drop Us a Message
               <p>Lorem Ipsum Dolor Amet</p>
             </h3>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-group">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="form-group">
                   <input
                     type="text"
                     name="txtName"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Your Name *"
                     value=""
                   />
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <input
                     type="text"
                     name="txtEmail"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Your Email *"
                     value=""
                   />
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <input
                     type="text"
                     name="txtPhone"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Your Phone Number *"
                     value=""
                   />
                 </div>
-                <div class="form-group">
+                <div className="form-group">
                   <input
                     type="submit"
                     name="btnSubmit"
-                    class="btnSubmit"
+                    className="btnSubmit"
                     value="Send Message"
                   />
                 </div>
               </div>
-              <div class="col-md-6">
-                <div class="form-group">
+              <div className="col-md-6">
+                <div className="form-group">
                   <textarea
                     name="txtMsg"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Your Message *"
                     style={{ width: 100 + '%', height: 150 + 'px' }}
                   ></textarea>
@@ -74,7 +73,5 @@ const FormContact = (props) => {
     </Fragment>
   )
 }
-
-FormContact.propTypes = {}
 
 export default FormContact

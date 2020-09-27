@@ -76,7 +76,7 @@ const Customer = () => {
             <div className="carousel-item">
               <img
                 src="https://www.w3schools.com/bootstrap4/chicago.jpg"
-                alt="Chicago"
+                alt=""
                 width="1100"
                 height="500"
               />
@@ -121,21 +121,12 @@ const Customer = () => {
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
+              alt="Los Angeles"
             />
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
-            />
-          </div>
-
-          <div className="d-flex flex-column">
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
-            />
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
+              alt="Los Angeles"
             />
           </div>
 
@@ -143,20 +134,37 @@ const Customer = () => {
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
+              alt="Los Angeles"
             />
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
+              alt="Los Angeles"
+            />
+          </div>
+
+          <div className="d-flex flex-column">
+            <img
+              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
+              className="img-fluid"
+              alt="Los Angeles"
+            />
+            <img
+              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
+              className="img-fluid"
+              alt="Los Angeles"
             />
           </div>
           <div className="d-flex flex-column">
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
+              alt="Los Angeles"
             />
             <img
               src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
               className="img-fluid"
+              alt="Los Angeles"
             />
           </div>
         </div>
