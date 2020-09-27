@@ -20,9 +20,7 @@ const App = () => {
     <Router>
       <Fragment>
         <SideFloating />
-        <Switch>
-          <Route exact path={'/'} component={Home} />
-        </Switch>
+        <Route exact path={'/'} component={Home} />
         <Route exact path={'/contact'} component={Contact} />
         <Route exact path={'/galery'} component={Gallery} />
         <Route exact path={'/about'} component={About} />
