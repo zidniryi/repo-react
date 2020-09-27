@@ -34,10 +34,7 @@ const NavBar = () => {
             ></span>
           </button>
           <a className="navbar-brand mx-auto" href="#">
-            <img
-              src="http://www.pafindo.co.id/gfolder/images/logo.png"
-              alt=""
-            />
+            PAFINDO
           </a>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ml-auto">
