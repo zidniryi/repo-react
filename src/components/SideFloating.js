@@ -35,14 +35,13 @@ export const SideFloating = () => {
           <div className="fl-fl float-fb">
             <i className="fa fa-envelope"></i>
             <Link to="/form-contact" target="_blank">
-              {' '}
-              Contact Us
+              Request & Inquiry
             </Link>
           </div>
           <div className="fl-fl float-tw">
             <i className="fa fa-phone"></i>
             <a href="" target="_blank">
-              08484416412
+              Call Center
             </a>
           </div>
           <div className="fl-fl float-gp">
@@ -51,7 +50,7 @@ export const SideFloating = () => {
               href=" https://api.whatsapp.com/send?phone=6281933357030&text=Saya%20tertarik%20untuk%20berlangganan%20KIRIM.EMAIL"
               target="_blank"
             >
-              WhatsApp Us
+              Chat WA
             </a>
           </div>
           <div className="fl-fl float-rs">

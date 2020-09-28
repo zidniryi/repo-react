@@ -291,7 +291,7 @@ const NavBar = () => {
               <li className="nav-item">
                 {' '}
                 <Link className="nav-link" to="/contact">
-                  Contact US
+                  Contact
                 </Link>
               </li>
             </ul>

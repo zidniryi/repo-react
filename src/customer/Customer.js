@@ -10,7 +10,9 @@ const Customer = () => {
         className="container"
         style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
       >
-        <h2 style={{ textAlign: 'center' }}>What is PAFINDO doing :</h2>
+        <h2 style={{ textAlign: 'center', fontWeight: 'bold' }}>
+          What is PAFINDO doing :
+        </h2>
         <hr />
         <p>
           <ol>
@@ -60,33 +62,14 @@ const Customer = () => {
         <div id="demo" className="carousel slide" data-ride="carousel">
           <ul className="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" className="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
           </ul>
 
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="https://www.w3schools.com/bootstrap4/chicago.jpg"
+                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ac0c6665-4457-4533-91af-74eff3b94ba5/Slider3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200928T141502Z&X-Amz-Expires=86400&X-Amz-Signature=c2ee95077f46ec75ee7ce5ef50f3460309900e304de97b1bc14110899570d164&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Slider3.jpg%22"
                 alt="Los Angeles"
-                width="1100"
-                height="500"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://www.w3schools.com/bootstrap4/chicago.jpg"
-                alt=""
-                width="1100"
-                height="500"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://www.w3schools.com/bootstrap4/chicago.jpg"
-                alt="New York"
-                width="1100"
-                height="500"
+                className="img-fluid"
               />
             </div>
           </div>
@@ -99,75 +82,6 @@ const Customer = () => {
           </a>
         </div>
         <hr />
-
-        <h2>Lorem Ipsum</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu
-          risus eget nulla bibendum pellentesque sed non felis. Nullam nec nisi
-          non mi sollicitudin aliquam eget viverra odio. Donec sed elit eu augue
-          dictum hendrerit sit amet vitae orci. Morbi nec vestibulum felis, ac
-          dictum ex. Donec efficitur eros ut scelerisque ornare. Integer nibh
-          lacus, eleifend nec justo eu, varius dictum ligula. Duis quam mi,
-          luctus et porttitor at, faucibus at mi. Suspendisse quis augue tempus,
-          consequat felis in, viverra dui. Orci varius natoque penatibus et
-          magnis dis parturient montes, nascetur ridiculus mus. Aliquam aliquam
-          dolor nibh, vitae dignissim lacus cursus eget. Nullam euismod vel odio
-          id semper.
-        </p>
-
-        <hr />
-        <div className="d-flex flex-row">
-          <div className="d-flex flex-column">
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
-              alt="Los Angeles"
-            />
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
-              alt="Los Angeles"
-            />
-          </div>
-
-          <div className="d-flex flex-column">
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
-              alt="Los Angeles"
-            />
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
-              alt="Los Angeles"
-            />
-          </div>
-
-          <div className="d-flex flex-column">
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
-              alt="Los Angeles"
-            />
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
-              alt="Los Angeles"
-            />
-          </div>
-          <div className="d-flex flex-column">
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
-              alt="Los Angeles"
-            />
-            <img
-              src="https://www.w3schools.com/bootstrap4/cinqueterre.jpg"
-              className="img-fluid"
-              alt="Los Angeles"
-            />
-          </div>
-        </div>
       </div>
       <Footer />
     </Fragment>

@@ -1,13 +1,18 @@
 import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
+import slider1 from '../assets/sliderProduct/Slider1.jpg'
+import slider2 from '../assets/sliderProduct/Slider2.jpg'
+import slider3 from '../assets/sliderProduct/Slider3.jpg'
 
 const ProductDetail = () => {
   return (
     <Fragment>
       <NavBar />
       <div className="container" style={{ marginTop: 100 }}>
-        <h1 className="my-4">UCR Berco</h1>
+        <h1 className="my-4" style={{ fontWeight: 'bold' }}>
+          UCR Berco
+        </h1>
 
         <div className="row">
           <div className="col-md-8">
@@ -35,21 +40,21 @@ const ProductDetail = () => {
                 <div className="carousel-item active">
                   <img
                     className="d-block w-100"
-                    src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/20daea2d-811a-4289-adae-4195309ebf37/Slider1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200926T144153Z&X-Amz-Expires=86400&X-Amz-Signature=156e63f4ffa444893abf5c37cc98a14e56189beebf1f6407313599e159f6b081&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Slider1.jpg%22"
+                    src={slider1}
                     alt="First slide"
                   />
                 </div>
                 <div className="carousel-item">
                   <img
                     className="d-block w-100"
-                    src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b0ecfa07-e868-4355-a2ce-2d457a5c3daa/Slider2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200926T144241Z&X-Amz-Expires=86400&X-Amz-Signature=c9bdf0d6f505888cb0673ed7d26e9e17c0d6a3297c9561012c695795efb2c102&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Slider2.jpg%22"
+                    src={slider2}
                     alt="Second slide"
                   />
                 </div>
                 <div className="carousel-item">
                   <img
                     className="d-block w-100"
-                    src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5fafc5e4-00ce-461e-a0cc-2d0a42331113/Slider3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200926T144300Z&X-Amz-Expires=86400&X-Amz-Signature=6046b18274908ab2d0ebe70bd1d1b0f0e30e822149e71c0169da9f76a8f6ba82&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Slider3.jpg%22"
+                    src={slider3}
                     alt="Third slide"
                   />
                 </div>
@@ -82,7 +87,7 @@ const ProductDetail = () => {
           </div>
 
           <div className="col-md-4">
-            <h3 className="my-3">Project Description</h3>
+            <h3 className="my-3">UCR Berco</h3>
             <p>
               Berco is know for superior engineering & technology. Innovation,
               comprehensive know how and state of the art manufacturing. Nearing
@@ -92,23 +97,32 @@ const ProductDetail = () => {
               versions of extreme applications and are unrivaled in terms of
               wear resistance, durability & technical content.
             </p>
-            <h3 className="my-3">Project Details</h3>
+            <a
+              href="https://www.costex.com/wp-content/uploads/2016/08/F-720-191.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-info btn-lg btn-block"
+            >
+              <i class="fa fa-book"></i> Download
+            </a>
+            <h3 className="my-3">Parts :</h3>
             <ul>
-              <li>Lorem Ipsum</li>
-              <li>Dolor Sit Amet</li>
-              <li>Consectetur</li>
-              <li>Adipiscing Elit</li>
+              <li>Track Link</li>
+              <li>Track Shoes</li>
+              <li>Rollers</li>
+              <li>Rollers</li>
+              <li>Idler</li>
             </ul>
           </div>
         </div>
         <hr />
-        <h3 className="my-4">The Product</h3>
+        <h3 className="my-4">Parts : </h3>
         <div className="row">
           <div className="col-md-3 col-sm-6 mb-4">
             <a href="#">
               <img
                 className="img-fluid"
-                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/798d2ba7-f952-4db8-9274-909dbe967702/1berco.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200926T150354Z&X-Amz-Expires=86400&X-Amz-Signature=e06aa20880ff98c7f515760be8de7b5684980df779145e24d90ce1cf75c6600d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%221berco.jpg%22"
+                src="../assets/sliderProduct/Slider1.jpg"
                 alt=""
               />
             </a>

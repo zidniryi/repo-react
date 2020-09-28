@@ -1551,21 +1551,25 @@ section .section-title {
 .float-fb {
   top: 160px;
   background: #55acee;
+  width: 210px;
 }
 
 .float-tw {
   top: 215px;
   background: #dd4b39;
+  width: 210px;
 }
 
 .float-gp {
   top: 270px;
   background: #5ec556;
+  width: 210px;
 }
 
 .float-rs {
   top: 325px;
   background: #007bb5;
+  width: 210px;
 }
 /* Floating Social Media Bar Style Ends Here */
 

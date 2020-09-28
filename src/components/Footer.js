@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 
-const Footer = (props) => {
+const Footer = () => {
   return (
     <Fragment>
       <section className="about-sec parallax-section" id="about">
@@ -22,21 +23,27 @@ const Footer = (props) => {
             </div>
             <div className="col-md-4">
               <p>
-                Our greatest happiness does not depend on the condition of life
-                in which chance has placed us, but is always the result of a
-                good conscience, good health, occupation, and freedom in all
-                just pursuits.
+                PT. Pacific Firstrack Indonesia (Pafindo) is one of the
+                Indonesia's largest independent distributor of specialist
+                undercarriage parts, Ground Engaging Tools (GET) parts, and
+                Filtration parts. Our products are used for Track-type Tractors
+                (Bulldozers), Hydraulic Excavators, Motor Graders.
               </p>
               <p>
-                Being in control of your life and having realistic expectations
-                about your day-to-day challenges are the keys to stress
-                management, which is perhaps the most important ingredient to
-                living a happy, healthy and rewarding life.
+                Established since 2007 in Balikpapan city, Pafindo has grown
+                from a small trader of various kinds of spare parts to become a
+                reputable one-stop centre for Undercarriage parts, Ground
+                Engaging Tools (GET) parts, and Filtration parts in Indonesia.
+                We are specialist in supplying and stockist for Undercarriage
+                parts, Ground Engaging Tools (GET) parts and Filtration parts.
               </p>
               <p>
-                <a href="#" className="btn btn-transparent-white btn-capsul">
-                  Explore More
-                </a>
+                <Link
+                  to="/about"
+                  className="btn btn-transparent-white btn-capsul"
+                >
+                  Read More
+                </Link>
               </p>
             </div>
           </div>

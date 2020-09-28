@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-import Floating from '../components/Floating'
 
 const Gallery = () => {
   return (
@@ -252,7 +251,6 @@ const Gallery = () => {
         </div>
       </div>
       <Footer />
-      <Floating />
     </Fragment>
   )
 }

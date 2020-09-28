@@ -19,7 +19,7 @@ const Contact = () => {
               </b>
               <br />
               <img
-                src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
+                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e290e7a0-fe79-445d-b063-eafdf89b64b3/Screen_Shot_2020-09-28_at_17.41.59.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200928T133925Z&X-Amz-Expires=86400&X-Amz-Signature=70c148df7b713d259aa888d1939b085717360b7d4e5fc603eb02139290b19439&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen_Shot_2020-09-28_at_17.41.59.png%22"
                 alt="..."
                 className="img-thumbnail"
               />
@@ -44,7 +44,7 @@ const Contact = () => {
               </b>
               <br />
               <img
-                src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
+                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e290e7a0-fe79-445d-b063-eafdf89b64b3/Screen_Shot_2020-09-28_at_17.41.59.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200928T133925Z&X-Amz-Expires=86400&X-Amz-Signature=70c148df7b713d259aa888d1939b085717360b7d4e5fc603eb02139290b19439&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen_Shot_2020-09-28_at_17.41.59.png%22"
                 alt="..."
                 className="img-thumbnail"
               />
@@ -72,7 +72,7 @@ const Contact = () => {
               </b>
               <br />
               <img
-                src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
+                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e290e7a0-fe79-445d-b063-eafdf89b64b3/Screen_Shot_2020-09-28_at_17.41.59.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200928T133925Z&X-Amz-Expires=86400&X-Amz-Signature=70c148df7b713d259aa888d1939b085717360b7d4e5fc603eb02139290b19439&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen_Shot_2020-09-28_at_17.41.59.png%22"
                 alt="..."
                 className="img-thumbnail"
               />
@@ -90,7 +90,7 @@ const Contact = () => {
               </b>
               <br />
               <img
-                src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
+                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e290e7a0-fe79-445d-b063-eafdf89b64b3/Screen_Shot_2020-09-28_at_17.41.59.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200928T133925Z&X-Amz-Expires=86400&X-Amz-Signature=70c148df7b713d259aa888d1939b085717360b7d4e5fc603eb02139290b19439&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen_Shot_2020-09-28_at_17.41.59.png%22"
                 alt="..."
                 className="img-thumbnail"
               />
@@ -118,7 +118,7 @@ const Contact = () => {
               </b>
               <br />
               <img
-                src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
+                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e290e7a0-fe79-445d-b063-eafdf89b64b3/Screen_Shot_2020-09-28_at_17.41.59.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200928T133925Z&X-Amz-Expires=86400&X-Amz-Signature=70c148df7b713d259aa888d1939b085717360b7d4e5fc603eb02139290b19439&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Screen_Shot_2020-09-28_at_17.41.59.png%22"
                 alt="..."
                 className="img-thumbnail"
               />
@@ -160,17 +160,7 @@ const Contact = () => {
                       <input
                         type="text"
                         className="form-control mt-2"
-                        placeholder="Nama Depan"
-                        required
-                      />
-                    </div>
-                  </div>
-                  <div className="col-lg-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        className="form-control mt-2"
-                        placeholder="Nama Belakang"
+                        placeholder="Nama"
                         required
                       />
                     </div>
@@ -185,16 +175,7 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-                  <div className="col-lg-6">
-                    <div className="form-group">
-                      <input
-                        type="number"
-                        className="form-control mt-2"
-                        placeholder="Telepon"
-                        required
-                      />
-                    </div>
-                  </div>
+
                   <div className="col-12">
                     <div className="form-group">
                       <textarea
