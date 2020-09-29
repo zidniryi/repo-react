@@ -9,15 +9,15 @@ export const CardProduct = () => {
           <div className="card-image">
             <img
               className="img-fluid"
-              src="https://www.costex.com/wp-content/uploads/2019/12/abc-gasket-kits-header-1-1536x768.jpg"
+              src={require('../../assets/others/tracktor.jpg')}
               alt="Alternate Text"
               style={{ alignSelf: 'center' }}
             />
           </div>
           <div className="card-image-overlay m-auto">
             <p>
-              The ABC GASKET KITS program is designed to consolidate popular
-              gaskets and make it easy to order.
+              Berco is know for superior engineering & technology. Innovation,
+              comprehensive know how and state of the art manufacturing.
             </p>
           </div>
           <div className="card-body text-center">
