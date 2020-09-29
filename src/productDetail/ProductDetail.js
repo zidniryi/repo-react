@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import slider1 from '../assets/sliderProduct/Slider1.jpg'
 import slider2 from '../assets/sliderProduct/Slider2.jpg'
 import slider3 from '../assets/sliderProduct/Slider3.jpg'
+import CardProductLogo from './component/CardProductLogo'
 
 const ProductDetail = () => {
   return (
@@ -116,57 +117,39 @@ const ProductDetail = () => {
           </div>
         </div>
         <hr />
-        <h3 className="my-4">Parts : </h3>
-        <div className="row">
-          <div className="col-md-3 col-sm-6 mb-4">
-            <a href="#">
-              <img
-                className="img-fluid"
-                src="../assets/sliderProduct/Slider1.jpg"
-                alt=""
-              />
-            </a>
-          </div>
+        <h3 className="my-4">Products : </h3>
 
-          <div className="col-md-3 col-sm-6 mb-4">
-            <a href="#">
-              <img
-                className="img-fluid"
-                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/21eb174b-07b9-48ab-a085-9b220fbe774a/Logo_NR.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200926T150430Z&X-Amz-Expires=86400&X-Amz-Signature=3c2651d74af86491c1146f7b662264e6f2ed3c3c5f003cb126201f46c265bf0f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Logo_NR.jpg%22"
-                alt=""
-              />
-            </a>
-          </div>
-
-          <div className="col-md-3 col-sm-6 mb-4">
-            <a href="#">
-              <img
-                className="img-fluid"
-                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5f67321b-04ca-4839-96e5-86a4a14a9145/OFM_LOGO.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200926T150453Z&X-Amz-Expires=86400&X-Amz-Signature=3e054748294b3f5c6671ae0977e48c132db26bf256bbe182b9b48791cd3f211b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22OFM_LOGO.png%22"
-                alt=""
-              />
-            </a>
-          </div>
-
-          <div className="col-md-3 col-sm-6 mb-4">
-            <a href="#">
-              <img
-                className="img-fluid"
-                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8cd86172-4c98-4a67-b43d-58474e73ce93/GET.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200926T150534Z&X-Amz-Expires=86400&X-Amz-Signature=f83a26fa66c1d68e42187d782b529b891a68b1caa4fc0211c8454628880e1851&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22GET.jpg%22"
-                alt=""
-              />
-            </a>
-          </div>
-
-          <div className="col-md-3 col-sm-6 mb-4">
-            <a href="#">
-              <img
-                className="img-fluid"
-                src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/06bb6523-39e8-48e8-81a9-462b2c89fc2f/others.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200926T150628Z&X-Amz-Expires=86400&X-Amz-Signature=e024bacfd4a03f19ae8b8357b508d05cf3e7d3b94f4c94ab7f26d3ccc3de5269&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22others.jpg%22"
-                alt=""
-              />
-            </a>
-          </div>
+        <div class="row">
+          <CardProductLogo
+            image={require('../assets/logoProduct/1berco.jpg')}
+            title="UCR BERCO"
+            desc="Berco is know for superior engineering & technology. Innovation, comprehensive know how and state of the art manufacturing."
+          />
+          <CardProductLogo
+            image={require('../assets/logoProduct/Logo_NR.jpg')}
+            title="UCR NR"
+            desc=" Carrier Roller, Track Roller, Idler, Sprocket dan Track Link endurable for the equipment's load are the core parts of the equipment."
+          />
+          <CardProductLogo
+            image={require('../assets/logoProduct/OFM_LOGO.png')}
+            title="OFM"
+            desc="The Ofm top line's vaster product range is proven for best results even in the toughest working conditions."
+          />
+          <CardProductLogo
+            image={require('../assets/logoProduct/FEURST_transp.png')}
+            title="FEURST"
+            desc="Since 1992, Feurst has manufactured bucket teeth and adapters for quarrying and earthmoving equipments, i.e. loaders and excavators from 35 to 200 tonnes."
+          />
+          <CardProductLogo
+            image={require('../assets/logoProduct/GET.jpg')}
+            title="Ground Engaging Tools"
+            desc="Protect your machines with the ground engaging tools (GET) that are designed specifically for them. Buckets or blades, tips or edges, rippers or side cutters"
+          />
+          <CardProductLogo
+            image={require('../assets/logoProduct/others.jpg')}
+            title="Others"
+            desc="Your undercarriage is an expensive investment. It accounts for as much as 20 percent of the price of a new track-type machine."
+          />
         </div>
       </div>
       <Footer />
