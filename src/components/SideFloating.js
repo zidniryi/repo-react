@@ -17,7 +17,7 @@ export const SideFloating = () => {
             <i className="fas fa-phone-volume" style={{ width: 20 }}></i>
           </a>
           <a
-            href=" https://api.whatsapp.com/send?phone=6281933357030&text=Saya%20tertarik%20untuk%20berlangganan%20KIRIM.EMAIL"
+            href=" https://api.whatsapp.com/send?phone=628170722428"
             className="whatsapp"
           >
             <i
@@ -47,7 +47,7 @@ export const SideFloating = () => {
           <div className="fl-fl float-gp">
             <i className="fab fa-whatsapp"></i>
             <a
-              href=" https://api.whatsapp.com/send?phone=6281933357030&text=Saya%20tertarik%20untuk%20berlangganan%20KIRIM.EMAIL"
+              href=" https://api.whatsapp.com/send?phone=628170722428"
               target="_blank"
             >
               Chat WA
