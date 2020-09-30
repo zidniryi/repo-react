@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import './App.css'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Home from './home/Home'
 import Contact from './contact/Contact'
 import Gallery from './gallery/Gallery'

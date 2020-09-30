@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar'
 import Slider from '../components/Slider'
 import Footer from '../components/Footer'
 import { CardProduct } from './component/CardProduct'
-import CardDeck from '../components/CardDeck'
+import CardDeck from './CardDeck'
 
 const Home = () => {
   return (
