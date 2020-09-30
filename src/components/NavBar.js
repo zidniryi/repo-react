@@ -88,7 +88,7 @@ const NavBar = () => {
                   data-toggle="dropdown"
                 >
                   {' '}
-                  Mega menu{' '}
+                  Product{' '}
                 </a>
                 <div className="dropdown-menu megamenu">
                   <div className="row">

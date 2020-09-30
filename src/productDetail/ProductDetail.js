@@ -118,35 +118,35 @@ const ProductDetail = () => {
         </div>
         <hr />
         <h3 className="my-4">Products : </h3>
-
         <div class="row">
           <CardProductLogo
-            image={require('../assets/logoProduct/1berco.jpg')}
+            image={require('../assets/logoProduct/berco.jpg')}
             title="UCR BERCO"
             desc="Berco is know for superior engineering & technology. Innovation, comprehensive know how and state of the art manufacturing."
           />
           <CardProductLogo
-            image={require('../assets/logoProduct/Logo_NR.jpg')}
+            image={require('../assets/logoProduct/nr.jpg')}
             title="UCR NR"
             desc=" Carrier Roller, Track Roller, Idler, Sprocket dan Track Link endurable for the equipment's load are the core parts of the equipment."
           />
           <CardProductLogo
-            image={require('../assets/logoProduct/OFM_LOGO.png')}
+            image={require('../assets/logoProduct/ofm.jpg')}
             title="OFM"
             desc="The Ofm top line's vaster product range is proven for best results even in the toughest working conditions."
+            newLine={true}
           />
           <CardProductLogo
-            image={require('../assets/logoProduct/FEURST_transp.png')}
+            image={require('../assets/logoProduct/feurst.jpg')}
             title="FEURST"
             desc="Since 1992, Feurst has manufactured bucket teeth and adapters for quarrying and earthmoving equipments, i.e. loaders and excavators from 35 to 200 tonnes."
           />
           <CardProductLogo
-            image={require('../assets/logoProduct/GET.jpg')}
+            image={require('../assets/logoProduct/get.jpg')}
             title="Ground Engaging Tools"
             desc="Protect your machines with the ground engaging tools (GET) that are designed specifically for them. Buckets or blades, tips or edges, rippers or side cutters"
           />
           <CardProductLogo
-            image={require('../assets/logoProduct/others.jpg')}
+            image={require('../assets/logoProduct/other.jpg')}
             title="Others"
             desc="Your undercarriage is an expensive investment. It accounts for as much as 20 percent of the price of a new track-type machine."
           />
