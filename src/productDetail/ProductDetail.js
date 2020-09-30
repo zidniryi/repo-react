@@ -141,7 +141,7 @@ const ProductDetail = () => {
             desc="Since 1992, Feurst has manufactured bucket teeth and adapters for quarrying and earthmoving equipments, i.e. loaders and excavators from 35 to 200 tonnes."
           />
           <CardProductLogo
-            image={require('../assets/logoProduct/get.jpg')}
+            image={require('../assets/logoProduct/getme.jpg')}
             title="Ground Engaging Tools"
             desc="Protect your machines with the ground engaging tools (GET) that are designed specifically for them. Buckets or blades, tips or edges, rippers or side cutters"
           />

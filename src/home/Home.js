@@ -36,7 +36,7 @@ const Home = () => {
           <hr />
           <div className="container">
             <h4 className="my-4">Our Products : </h4>
-            <div class="card-deck">
+            {/* <div class="card-deck">
               <CardDeck
                 image={require('../assets/logoProduct/berco.jpg')}
                 title="UCR BERCO"
@@ -62,7 +62,7 @@ const Home = () => {
                 desc="Since 1992, Feurst has manufactured bucket teeth and adapters for quarrying and earthmoving equipments, i.e. loaders and excavators from 35 to 200 tonnes."
               />
               <CardDeck
-                image={require('../assets/logoProduct/get.jpg')}
+                image={require('../assets/logoProduct/getme.jpg')}
                 title="Ground Engaging Tools"
                 desc="Protect your machines with the ground engaging tools (GET) that are designed specifically for them. Buckets or blades, tips or edges, rippers or side cutters"
               />
@@ -71,7 +71,7 @@ const Home = () => {
                 title="Others"
                 desc="Your undercarriage is an expensive investment. It accounts for as much as 20 percent of the price of a new track-type machine."
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
