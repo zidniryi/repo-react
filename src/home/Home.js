@@ -36,7 +36,7 @@ const Home = () => {
           <hr />
           <div className="container">
             <h4 className="my-4">Our Products : </h4>
-            {/* <div class="card-deck">
+            <div class="card-deck">
               <CardDeck
                 image={require('../assets/logoProduct/berco.jpg')}
                 title="UCR BERCO"
@@ -71,7 +71,7 @@ const Home = () => {
                 title="Others"
                 desc="Your undercarriage is an expensive investment. It accounts for as much as 20 percent of the price of a new track-type machine."
               />
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
