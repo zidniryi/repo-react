@@ -205,22 +205,22 @@ const Contact = () => {
                 <a href="tel:+">(+39) 123456</a>
                 <br />
                 <i className="fa fa-envelope mt-3 pr-4"></i>{' '}
-                <a href="">info@test.it</a>
+                <a href="#app">info@test.it</a>
                 <br />
                 <i className="fas fa-globe mt-3 pr-4"></i>{' '}
-                <a href="">Lokasi Kami</a>
+                <a href="#app">Lokasi Kami</a>
                 <br />
                 <div className="my-4">
-                  <a href="">
+                  <a href="#location">
                     <i className="fab fa-facebook fa-3x"></i>
                   </a>{' '}
-                  <a href="">
+                  <a href="#location">
                     <i className="fab fa-instagram fa-3x"></i>
                   </a>{' '}
-                  <a href="">
+                  <a href="#location">
                     <i className="fab fa-linkedin fa-3x"></i>
                   </a>{' '}
-                  <a href="">
+                  <a href="#location">
                     <i className="fab fa-twitter fa-3x"></i>
                   </a>
                 </div>

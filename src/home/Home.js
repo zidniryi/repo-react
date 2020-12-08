@@ -4,10 +4,12 @@ import Slider from '../components/Slider'
 import Footer from '../components/Footer'
 import { CardProduct } from './component/CardProduct'
 import CardDeck from './CardDeck'
+import TitleApp from '../title/TitleApp'
 
 const Home = () => {
   return (
     <Fragment>
+      <TitleApp titleApp="Home Pafindo"/>
       <NavBar />
       <Slider />
 

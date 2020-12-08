@@ -13,7 +13,7 @@ export const SideFloating = () => {
           <Link to="/form-contact" className="twitter">
             <i className="far fa-envelope" style={{ width: 20 }}></i>
           </Link>
-          <a href="#" className="google">
+          <a href="#hi" className="google">
             <i className="fas fa-phone-volume" style={{ width: 20 }}></i>
           </a>
           <a

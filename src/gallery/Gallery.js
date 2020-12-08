@@ -15,7 +15,7 @@ const Gallery = () => {
             <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
                 className="thumbnail"
-                href="#"
+                href="#gallery"
                 data-image-id=""
                 data-toggle="modal"
                 data-title=""
@@ -32,7 +32,7 @@ const Gallery = () => {
             <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
                 className="thumbnail"
-                href="#"
+                href="#gallery"
                 data-image-id=""
                 data-toggle="modal"
                 data-title=""
@@ -50,7 +50,7 @@ const Gallery = () => {
             <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
                 className="thumbnail"
-                href="#"
+                href="#galery"
                 data-image-id=""
                 data-toggle="modal"
                 data-title=""
@@ -67,7 +67,7 @@ const Gallery = () => {
             <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
                 className="thumbnail"
-                href="#"
+                href="#galery"
                 data-image-id=""
                 data-toggle="modal"
                 data-title="Test1"
@@ -84,7 +84,7 @@ const Gallery = () => {
             <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
                 className="thumbnail"
-                href="#"
+                href="#galery"
                 data-image-id=""
                 data-toggle="modal"
                 data-title="Im so nice"
@@ -102,7 +102,7 @@ const Gallery = () => {
             <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
                 className="thumbnail"
-                href="#"
+                href="#galery"
                 data-image-id=""
                 data-toggle="modal"
                 data-title="Im so nice"
@@ -119,7 +119,7 @@ const Gallery = () => {
             <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
                 className="thumbnail"
-                href="#"
+                href="#galery"
                 data-image-id=""
                 data-toggle="modal"
                 data-title="Im so nice"
@@ -136,7 +136,7 @@ const Gallery = () => {
             <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
                 className="thumbnail"
-                href="#"
+                href="#galery"
                 data-image-id=""
                 data-toggle="modal"
                 data-title="Im so nice"
@@ -154,7 +154,7 @@ const Gallery = () => {
             <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
                 className="thumbnail"
-                href="#"
+                href="#galery"
                 data-image-id=""
                 data-toggle="modal"
                 data-title="Im so nice"
@@ -171,7 +171,7 @@ const Gallery = () => {
             <div className="col-lg-3 col-md-4 col-xs-6 thumb">
               <a
                 className="thumbnail"
-                href="#"
+                href="#galery"
                 data-image-id=""
                 data-toggle="modal"
                 data-title="Im so nice"
