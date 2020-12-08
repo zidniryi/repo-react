@@ -51,10 +51,6 @@ const Visi = () => {
 						/>
 
 						<IconText
-							logo={require('../assets/visi/1-profesional.png')}
-							textLogo={'Profesionalism'}
-						/>
-						<IconText
 							logo={require('../assets/visi/2-integrity.png')}
 							textLogo={'Integrity'}
 						/>
@@ -73,6 +69,10 @@ const Visi = () => {
 						<IconText
 							logo={require('../assets/visi/6-Respect.png')}
 							textLogo={'Respect'}
+						/>
+						<IconText
+							logo={require('../assets/visi/7-service-excell.png')}
+							textLogo={'Service Excelent'}
 						/>
 					</div>
 				</div>
