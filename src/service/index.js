@@ -10,7 +10,7 @@ const ServiceCTP = () => {
         className="container"
         style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
       >
-        <h1> Services</h1>
+         <h1> Services</h1>
 
         <hr />
         {/* <div className="background" style={{ backgroundColor: '#ddd' }}>
