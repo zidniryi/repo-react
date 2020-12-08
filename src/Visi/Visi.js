@@ -36,10 +36,20 @@ const Visi = () => {
 				</div>
 
 				<div>
-					<h2 style={{ fontWeight: 'bold' }}>
-						7 Keys Success of Pafindo are :
+					<h2 style={{ fontWeight: 'bold', marginTop: 20 }}>
+						7 Keys Success of Pafindo are:
 					</h2>
-					<div>
+					<hr />
+
+					{/* Here */}
+
+					{/* Here */}
+					<div className="row" style={{ marginTop: 20 }}>
+						<IconText
+							logo={require('../assets/visi/1-profesional.png')}
+							textLogo={'Profesionalism'}
+						/>
+
 						<IconText
 							logo={require('../assets/visi/1-profesional.png')}
 							textLogo={'Profesionalism'}
@@ -63,10 +73,6 @@ const Visi = () => {
 						<IconText
 							logo={require('../assets/visi/6-Respect.png')}
 							textLogo={'Respect'}
-						/>
-						<IconText
-							logo={require('../assets/visi/7-service-excell.png')}
-							textLogo={'Service Excelent'}
 						/>
 					</div>
 				</div>
