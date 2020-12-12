@@ -33,9 +33,9 @@ const NavBar = () => {
 							className="navbar-toggler-icon"
 						></span>
 					</button>
-					<a className="navbar-brand mx-auto" href="#">
+					<Link className="navbar-brand mx-auto" to="/">
 						PAFINDO
-					</a>
+					</Link>
 					<div
 						className="collapse navbar-collapse"
 						id="navbarNavDropdown"
@@ -145,9 +145,9 @@ const NavBar = () => {
 											<div className="col-megamenu">
 												<h6 className="title">UCR</h6>
 												<ul className="list-unstyled">
-													<li>
-														<a href="#">UCR NR</a>
-													</li>
+													<Link to="/detail-product/ucr-nr">
+														UCR NR
+													</Link>
 													{/* <li>
 														<a href="#">
 															Custom Menu
@@ -180,9 +180,9 @@ const NavBar = () => {
 											<div className="col-megamenu">
 												<h6 className="title">OFM</h6>
 												<ul className="list-unstyled">
-													<li>
-														<a href="#">OFM</a>
-													</li>
+													<Link to="/detail-product/ofm">
+														OFM
+													</Link>
 													{/* <li>
 														<a href="#">
 															Custom Menu
@@ -218,7 +218,9 @@ const NavBar = () => {
 												</h6>
 												<ul className="list-unstyled">
 													<li>
-														<a href="#">FEURST</a>
+														<Link to="/detail-product/feurst">
+															FEURST
+														</Link>
 													</li>
 													{/* <li>
 														<a href="#">
@@ -254,10 +256,10 @@ const NavBar = () => {
 												<h6 className="title">GET</h6>
 												<ul className="list-unstyled">
 													<li>
-														<a href="#">
+														<Link to="/detail-product/get">
 															Ground Engaging
 															Tools
-														</a>
+														</Link>
 													</li>
 													{/* <li>
 														<a href="#">
@@ -296,15 +298,20 @@ const NavBar = () => {
 												</h6>
 												<ul className="list-unstyled">
 													<li>
-														<a href="#">Repair</a>
+														<Link to="/detail-product/repair">
+															Repair
+														</Link>
 													</li>
 													<li>
-														<a href="#">Service</a>
+														<Link to="/detail-product/service">
+															Service
+														</Link>
 													</li>
+
 													{/* <li>
-														<a href="#">
-															Custom Menu
-														</a>
+														<Link to="/detail-product/service">
+														Service
+													</Link>
 													</li>
 													<li>
 														<a href="#">

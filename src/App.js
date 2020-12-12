@@ -16,6 +16,12 @@ import ProductDetail from './productDetail/ProductDetail'
 import ProductDetailAll from './productDetailAll/ProductDetailAll'
 
 import { SideFloating } from './components/SideFloating'
+import ProductDetailAllNr from './productDetailAll/ProductDetailAllNr'
+import ProductDetailAllOfm from './productDetailAll/ProductDetailAllOfm'
+import ProductDetailAllFeurst from './productDetailAll/ProductDetailAllFeurst'
+import ProductDetailAllGet from './productDetailAll/ProductDetailAllGet'
+import ProductDetailAllRepair from './productDetailAll/ProductDetailAllRepair'
+import ProductDetailAllService from './productDetailAll/ProductDetailAllService'
 
 const App = () => {
 	return (
@@ -48,6 +54,36 @@ const App = () => {
 						exact
 						path={'/detail-product/berco'}
 						component={ProductDetailAll}
+					/>
+					<Route
+						exact
+						path={'/detail-product/ucr-nr'}
+						component={ProductDetailAllNr}
+					/>
+					<Route
+						exact
+						path={'/detail-product/ofm'}
+						component={ProductDetailAllOfm}
+					/>
+					<Route
+						exact
+						path={'/detail-product/feurst'}
+						component={ProductDetailAllFeurst}
+					/>
+					<Route
+						exact
+						path={'/detail-product/get'}
+						component={ProductDetailAllGet}
+					/>
+					<Route
+						exact
+						path={'/detail-product/repair'}
+						component={ProductDetailAllRepair}
+					/>
+					<Route
+						exact
+						path={'/detail-product/service'}
+						component={ProductDetailAllService}
 					/>
 				</Fragment>
 			</Router>
