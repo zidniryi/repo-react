@@ -13,28 +13,28 @@ const ProductDetailAll = () => {
 			<div class="container" style={{ marginTop: 100 }}>
 				<div class="row">
 					<div class="col-lg-3">
-						<h1 class="my-4">BERCO</h1>
+						<h1 class="my-4">PARTS</h1>
 						<div class="list-group">
 							<a
 								href={PDF1}
 								target="_blank"
 								class="list-group-item active"
 							>
-								Lihat Catalog 1
+								Tracklink
 							</a>
 							<a
 								href={PDF2}
 								target="_blank"
 								class="list-group-item active"
 							>
-								Lihat Catalog 2
+								Trackshoes
 							</a>
 							<a
 								href={PDF3}
 								target="_blank"
 								class="list-group-item active"
 							>
-								Lihat Catalog 3
+								Rollers
 							</a>
 						</div>
 					</div>

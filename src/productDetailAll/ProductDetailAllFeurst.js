@@ -48,12 +48,14 @@ const ProductDetailAllFeurst = () => {
 								alt=""
 							/>
 							<div class="card-body">
-								<h3 class="card-title">Deskripsi </h3>
+								<h3 class="card-title">
+									TURNKEY – A NEW PATENTED HAMMERLESS SYSTEM{' '}
+								</h3>
 								<p class="card-text">
-									Standard Bucket : Suitable for digging and
-									loading of soft to medium hard, compact and
-									not very abrasive materials such as earth /
-									rock, sand / gravel, coal, chalk.
+									Feurst has developed Turnkey teeth and
+									adapters to allow fast and easy assembly and
+									disassembly. User safety is enhanced as
+									there are no shards from hammering.
 								</p>
 								{/* <span class="text-warning">
 									&#9733; &#9733; &#9733; &#9733; &#9734;
@@ -64,27 +66,122 @@ const ProductDetailAllFeurst = () => {
 						{/* <!-- /.card --> */}
 
 						<div class="card card-outline-secondary my-4">
-							<div class="card-header">Product Terbaru</div>
+							<div class="card-header">
+								WHY CHOOSE TURNKEY TEETH AND ADAPTERS
+							</div>
 							<div class="card-body">
 								<p>
-									HD bucket : Suitable for digging and loading
-									mixed earth and rock soils with a high
-									proportion of rock or other abrasive
-									materials.
+									To develop the Turnkey system, Feurst drew
+									on a wide range of existing products and in
+									particular on tried and tested features:
 								</p>
 
-								<hr />
+								<ul>
+									<li>Recognised metallurgy</li>
+									<li>
+										The notion of compression in the keying
+										system
+									</li>
+									<li>The geometry of the double pin</li>
+									<li>The reversible wear cap</li>
+								</ul>
 								<p>
-									XHD bucket : Suitable for digging and
-									loading mixed earth and rock soils with a
-									high proportion of rock and other abrasive
-									and hard materials
+									These substantial and decisive features are
+									enhanced by the following:
+								</p>
+
+								<ul>
+									<li>
+										The shape of the self-sharpening and
+										penetrating teeth reduces the rate of
+										wear
+									</li>
+									<li>
+										There are numerous teeth profiles
+										available, depending on the applications
+									</li>
+									<li>
+										Increased tooth stability leads to less
+										play, less wear and therefore greater
+										efficiency
+									</li>
+								</ul>
+
+								<p>
+									The teams at Feurst are constantly striving
+									to improve the design of these wear parts by
+									focussing on various areas of research, i.e.
+									facilitating the loading of excavator and
+									loader buckets, making the work of operators
+									easier, making adapters more durable, etc.{' '}
 								</p>
 
 								<hr />
-								{/* <a href="#" class="btn btn-success">
-									Leave a Review
-								</a> */}
+							</div>
+						</div>
+
+						<div class="card card-outline-secondary my-4">
+							<div class="card-header">
+								THE ADVANTAGES OF THE TURNKEY SOLUTION
+							</div>
+							<div class="card-body">
+								<ul>
+									<li>
+										A reliable system that makes assembly
+										and disassembly extremely easy
+									</li>
+									<li>
+										A new nose profile that offers greater
+										wear resistance
+									</li>
+									<li>
+										With its new Turnkey system, Feurst
+										extends the service life of its users’
+										buckets by 50%.
+									</li>
+
+									<li>
+										Constant compression means materials do
+										not get inside the system
+									</li>
+
+									<li>
+										The immobility of Turnkey teeth results
+										in less vibration, less transmission and
+										therefore less shock
+									</li>
+
+									<li>
+										A loud “clack” sound indicates that the
+										teeth have been correctly assembled
+									</li>
+									<li>All teeth sizes are available</li>
+									<li>Available stocks</li>
+									<li>Made in France</li>
+								</ul>
+
+								<hr />
+							</div>
+						</div>
+
+						<div class="card card-outline-secondary my-4">
+							<div class="card-header">
+								PTS (PAFINDO TRACK SERVICE ) :
+							</div>
+							<div class="card-body">
+								<p>
+									Your undercarriage is an expensive
+									investment. It accounts for as much as 20
+									percent of the price of a new track-type
+									machine. Undercarriage can represent as much
+									as 50 percent of machine maintenance costs.
+									Our goal is to help you keeping your
+									undercarriage operating cost per hour as low
+									as possible. That's why we developed the
+									Pafindo Track Service (PTS).
+								</p>
+
+								<hr />
 							</div>
 						</div>
 						{/* <!-- /.card --> */}

@@ -52,7 +52,7 @@ const App = () => {
 					/>
 					<Route
 						exact
-						path={'/detail-product/berco'}
+						path={'/detail-product/parts'}
 						component={ProductDetailAll}
 					/>
 					<Route

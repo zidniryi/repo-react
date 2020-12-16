@@ -20,21 +20,21 @@ const ProductDetailAllNr = () => {
 								target="_blank"
 								class="list-group-item active"
 							>
-								Lihat Catalog 1
+								Tracklink
 							</a>
 							<a
 								href={PDF2}
 								target="_blank"
 								class="list-group-item active"
 							>
-								Lihat Catalog 2
+								Trackshoes
 							</a>
 							<a
 								href={PDF3}
 								target="_blank"
 								class="list-group-item active"
 							>
-								Lihat Catalog 3
+								Rollers
 							</a>
 						</div>
 					</div>

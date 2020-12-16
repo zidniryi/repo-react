@@ -106,11 +106,11 @@ const NavBar = () => {
 									<div className="row">
 										<div className="col-md-3">
 											<div className="col-megamenu">
-												<h6 className="title">BERCO</h6>
+												<h6 className="title">PARTS</h6>
 												<ul className="list-unstyled">
 													<li>
-														<Link to="/detail-product/berco">
-															UCR BERCO
+														<Link to="/detail-product/parts">
+															PARTS
 														</Link>
 													</li>
 													{/* <li>
@@ -259,6 +259,86 @@ const NavBar = () => {
 														<Link to="/detail-product/get">
 															Ground Engaging
 															Tools
+														</Link>
+													</li>
+													{/* <li>
+														<a href="#">
+															Custom Menu
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															Custom Menu
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															Custom Menu
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															Custom Menu
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															Custom Menu
+														</a>
+													</li> */}
+												</ul>
+											</div>
+										</div>
+
+										<div className="col-md-3">
+											<hr />
+											<div className="col-megamenu">
+												<h6 className="title">
+													Sprocket
+												</h6>
+												<ul className="list-unstyled">
+													<li>
+														<Link to="/detail-product/get">
+															Sprocket
+														</Link>
+													</li>
+													{/* <li>
+														<a href="#">
+															Custom Menu
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															Custom Menu
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															Custom Menu
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															Custom Menu
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															Custom Menu
+														</a>
+													</li> */}
+												</ul>
+											</div>
+										</div>
+
+										<div className="col-md-3">
+											<hr />
+											<div className="col-megamenu">
+												<h6 className="title">Idler</h6>
+												<ul className="list-unstyled">
+													<li>
+														<Link to="/detail-product/get">
+															Idler
 														</Link>
 													</li>
 													{/* <li>

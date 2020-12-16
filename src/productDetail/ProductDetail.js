@@ -90,15 +90,8 @@ const ProductDetail = () => {
 					<div className="col-md-4">
 						<h3 className="my-3">UCR Berco</h3>
 						<p>
-							Berco is know for superior engineering & technology.
-							Innovation, comprehensive know how and state of the
-							art manufacturing. Nearing 100 years of leadership &
-							research makes Berco undercarriage the reference
-							focal point in the field of construction equipment.
-							Berco products are made to perform under low & high
-							temperature versions of extreme applications and are
-							unrivaled in terms of wear resistance, durability &
-							technical content.
+							Improvement with Berco Pin Retention System ( BPR2 )
+							Class Dozer D375, D8R, D9R, D10R
 						</p>
 						<a
 							href="https://www.costex.com/wp-content/uploads/2016/08/F-720-191.pdf"
@@ -108,6 +101,41 @@ const ProductDetail = () => {
 						>
 							<i class="fa fa-book"></i> Download
 						</a>
+
+						<h3 className="my-3"> Main features: </h3>
+						<ul>
+							<li>
+								Completely new and improved seals, designed by
+								Berco with materials suitable for an extended
+								working temperature range and improved wear
+								performance when coupled with the bushing ends
+							</li>
+							<li>
+								New pin retention system to ensure all joints
+								are sealed to predetermined end–play
+								specification;{' '}
+							</li>
+							<li>Optimized pin – link interference; </li>
+							<li>
+								Improved bushing I. D. geometry and surface
+								finish;{' '}
+							</li>
+							<li>
+								Full interchangeability with OEM parts also at
+								subcomponent level.{' '}
+							</li>
+						</ul>
+
+						<h3 className="my-3"> Main benefits: </h3>
+						<ul>
+							<li>Longer joint life;</li>
+							<li>Improved serviceability & easy maintenance;</li>
+							<li>Optimized pin – link interference; </li>
+							<li>
+								Ultimately, significantly improved total
+								cost/hour.
+							</li>
+						</ul>
 						<h3 className="my-3">Parts :</h3>
 						<ul>
 							<li>Track Link</li>

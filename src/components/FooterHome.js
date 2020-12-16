@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 
-const Footer = () => {
+const FooterHome = () => {
 	return (
 		<Fragment>
 			<section className="about-sec parallax-section" id="about">
 				<div className="container">
 					<div className="row">
-						{/* <div className="col-md-7">
+						<div className="col-md-7">
 							<div className="embed-responsive embed-responsive-16by9">
 								<iframe
 									title="YT"
@@ -20,8 +20,8 @@ const Footer = () => {
 									className="embed-responsive-item"
 								></iframe>
 							</div>
-						</div> */}
-						<div className="col-md-12">
+						</div>
+						<div className="col-md-4">
 							<p>
 								PT. Pacific Firstrack Indonesia (Pafindo) is one
 								of the Indonesia's largest independent
@@ -214,4 +214,4 @@ const Footer = () => {
 	)
 }
 
-export default Footer
+export default FooterHome
