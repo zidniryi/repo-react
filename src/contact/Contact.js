@@ -12,13 +12,25 @@ const Contact = () => {
 
 			<div className="row" id="contatti">
 				<div className="container">
+					<h2>Our Office Location</h2>
+					<hr />
+					<center>
+						<img
+							src={require('../assets/branch/1.jpg')}
+							className="img-fluid"
+							width="50%"
+							style={{ alignSelf: 'center' }}
+						/>
+					</center>
+					<hr />
 					<div className="row">
 						<div className="col-sm-6">
 							<b>
-								HEADQUARTER :<br /> PT Pacific Firstrack
-								Indonesia
+								HEADQUARTER :<br /> PT Pacific Firstrack Indonesia
 							</b>
 							<br />
+							<br />
+
 							<img
 								src={require('../assets/contact/office_pavindo.png')}
 								alt="..."
@@ -44,15 +56,15 @@ const Contact = () => {
 								PT Pacific Firstrack Indonesia)
 							</b>
 							<br />
+							<br />
+
 							<img
-								src={require('../assets/contact/office_pavindo.png')}
+								src={require('../assets/branch/branch_jakarta.jpg')}
 								alt="..."
 								className="img-thumbnail"
 							/>
 							<IconContact
-								name={
-									'Jl. Kapuk Muara, Penjaringan - JAKARTA UTARA'
-								}
+								name={'Jl. Kapuk Muara, Penjaringan - JAKARTA UTARA'}
 								iconName="fas fa-map-marker-alt"
 							/>
 							<IconContact
@@ -63,7 +75,9 @@ const Contact = () => {
 
 						{/* 2 */}
 						<br />
+						<hr />
 					</div>
+					<hr />
 				</div>
 
 				<div className="container">
@@ -74,8 +88,10 @@ const Contact = () => {
 								PT Pacific Firstrack Indonesia
 							</b>
 							<br />
+							<br />
+
 							<img
-								src={require('../assets/contact/office_pavindo.png')}
+								src={require('../assets/branch/branch_balikpapan.jpg')}
 								alt="..."
 								className="img-thumbnail"
 							/>
@@ -93,7 +109,7 @@ const Contact = () => {
 							</b>
 							<br />
 							<img
-								src={require('../assets/contact/office_pavindo.png')}
+								src={require('../assets/branch/branch_samarinda.jpeg')}
 								alt="..."
 								className="img-thumbnail"
 							/>
@@ -104,16 +120,14 @@ const Contact = () => {
 								iconName="fas fa-map-marker-alt"
 							/>
 
-							<IconContact
-								name={`+62 541 7273535`}
-								iconName="fa fa-phone"
-							/>
+							<IconContact name={`+62 541 7273535`} iconName="fa fa-phone" />
 							<IconContact
 								name={`+62 541 7273535 (Fax)`}
 								iconName="fab fa-whatsapp"
 							/>
 						</div>
 					</div>
+					<hr />
 				</div>
 
 				<div className="container">
@@ -124,14 +138,12 @@ const Contact = () => {
 							</b>
 							<br />
 							<img
-								src={require('../assets/contact/office_pavindo.png')}
+								src={require('../assets/branch/branch_palu.jpeg')}
 								alt="..."
 								className="img-thumbnail"
 							/>
 							<IconContact
-								name={
-									'Jl. Basuki Rahmat No. 35, Kota Palu - Sulawesi Tengah'
-								}
+								name={'Jl. Basuki Rahmat No. 35, Kota Palu - Sulawesi Tengah'}
 								iconName="fas fa-map-marker-alt"
 							/>
 							<IconContact
@@ -144,6 +156,7 @@ const Contact = () => {
 							/>
 						</div>
 					</div>
+					<hr />
 				</div>
 
 				<div className="container mt-5">
@@ -222,10 +235,7 @@ const Contact = () => {
 										</div>
 									</div>
 									<div className="col-12">
-										<button
-											className="btn btn-primary btn-lg"
-											type="submit"
-										>
+										<button className="btn btn-primary btn-lg" type="submit">
 											Kirim Pesan
 										</button>
 									</div>

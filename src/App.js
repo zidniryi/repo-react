@@ -22,6 +22,7 @@ import ProductDetailAllFeurst from './productDetailAll/ProductDetailAllFeurst'
 import ProductDetailAllGet from './productDetailAll/ProductDetailAllGet'
 import ProductDetailAllRepair from './productDetailAll/ProductDetailAllRepair'
 import ProductDetailAllService from './productDetailAll/ProductDetailAllService'
+import Certificate from './certificate/Certificate'
 
 const App = () => {
 	return (
@@ -40,19 +41,12 @@ const App = () => {
 					<Route exact path={'/pdf'} component={PdfViewer} />
 					<Route exact path={'/service-ctp'} component={ServiceCTP} />
 					<Route exact path={'/customer'} component={Customer} />
+					<Route exact path={'/form-contact'} component={FormContact} />
+					<Route exact path={'/detail-product'} component={ProductDetail} />
+					<Route exact path={'/certificate'} component={Certificate} />
 					<Route
 						exact
-						path={'/form-contact'}
-						component={FormContact}
-					/>
-					<Route
-						exact
-						path={'/detail-product'}
-						component={ProductDetail}
-					/>
-					<Route
-						exact
-						path={'/detail-product/parts'}
+						path={'/detail-product/berco'}
 						component={ProductDetailAll}
 					/>
 					<Route

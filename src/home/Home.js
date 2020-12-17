@@ -26,24 +26,14 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<hr />
-					<h4>CTP® FEATURED REPLACEMENT CATERPILLAR® PARTS</h4>
-					<div className="row" id="ads">
-						<CardProduct />
-						<CardProduct />
-						<CardProduct />
-						{/* <CardProduct />
-						<CardProduct />
-						<CardProduct /> */}
-					</div>
-					<hr />
+
 					<div className="container">
 						<h4 className="my-4">Our Products : </h4>
 						<div class="card-deck">
 							<CardDeck
 								image={require('../assets/logoProduct/berco.jpg')}
 								title="UCR BERCO"
-								desc="Berco is know for superior engineering & technology. Innovation, comprehensive know how and state of the art manufacturing."
+								desc="Berco : Improvement with Berco Pin Retention System ( BPR2 ) Class Dozer D375, D8R, D9R, D10R"
 							/>
 							<CardDeck
 								image={require('../assets/logoProduct/nr.jpg')}
@@ -62,7 +52,9 @@ const Home = () => {
 							<CardDeck
 								image={require('../assets/logoProduct/feurst.jpg')}
 								title="FEURST"
-								desc="Since 1992, Feurst has manufactured bucket teeth and adapters for quarrying and earthmoving equipments, i.e. loaders and excavators from 35 to 200 tonnes."
+								desc="Feurst : TURNKEY – A NEW PATENTED HAMMERLESS SYSTEM  
+								Feurst has developed Turnkey teeth and adapters to allow fast and easy assembly and disassembly.
+								User safety is enhanced as there are no shards from hammering."
 							/>
 							<CardDeck
 								image={require('../assets/logoProduct/getme.jpg')}
@@ -75,6 +67,21 @@ const Home = () => {
 								desc="Your undercarriage is an expensive investment. It accounts for as much as 20 percent of the price of a new track-type machine."
 							/>
 						</div>
+					</div>
+
+					<hr />
+
+					<h4 className="my-4" style={{ marginLeft: 18 }}>
+						{' '}
+						CTP® FEATURED REPLACEMENT CATERPILLAR® PARTS
+					</h4>
+					<div className="row" id="ads">
+						<CardProduct />
+						<CardProduct />
+						<CardProduct />
+						{/* <CardProduct />
+						<CardProduct />
+						<CardProduct /> */}
 					</div>
 				</div>
 			</section>

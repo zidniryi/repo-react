@@ -33,13 +33,17 @@ const NavBar = () => {
 							className="navbar-toggler-icon"
 						></span>
 					</button>
-					<Link className="navbar-brand mx-auto" to="/">
+					{/* <Link className="navbar-brand mx-auto" to="/">
 						PAFINDO
+					</Link> */}
+					<Link className="navbar-brand mx-auto" to="/">
+						<img
+							src={require('../assets/logo/logo.jpg')}
+							className="img-fluid"
+							width="200"
+						/>
 					</Link>
-					<div
-						className="collapse navbar-collapse"
-						id="navbarNavDropdown"
-					>
+					<div className="collapse navbar-collapse" id="navbarNavDropdown">
 						<ul className="navbar-nav ml-auto">
 							<li className="nav-item active">
 								{' '}
@@ -56,38 +60,34 @@ const NavBar = () => {
 									data-toggle="dropdown"
 									aria-haspopup="true"
 									aria-expanded="false"
-									className="nav-link
-                dropdown-toggle"
+									className="nav-link  dropdown-toggle"
 								>
 									About Us
 								</a>
 								<ul
 									aria-labelledby="dropdownMenu1"
-									className="dropdown-menu border-0
-                shadow"
+									className="dropdown-menu border-0  shadow"
 								>
 									<li>
-										<Link
-											to="/about"
-											className="dropdown-item"
-										>
+										<Link to="/certificate" className="dropdown-item">
+											Certificate
+										</Link>
+									</li>
+									<li>
+										<Link to="/about" className="dropdown-item">
 											Company Profile{' '}
 										</Link>
 									</li>
+
 									<li>
-										<Link
-											to="/visi"
-											className="dropdown-item"
-										>
-											Visi Misi
+										<Link to="/customer" className="dropdown-item">
+											Customer
 										</Link>
 									</li>
+
 									<li>
-										<Link
-											to="/customer"
-											className="dropdown-item"
-										>
-											Customer
+										<Link to="/visi" className="dropdown-item">
+											Visi Misi
 										</Link>
 									</li>
 								</ul>
@@ -106,12 +106,10 @@ const NavBar = () => {
 									<div className="row">
 										<div className="col-md-3">
 											<div className="col-megamenu">
-												<h6 className="title">PARTS</h6>
+												<h6 className="title">UCR BERCO</h6>
 												<ul className="list-unstyled">
 													<li>
-														<Link to="/detail-product/parts">
-															PARTS
-														</Link>
+														<Link to="/detail-product/berco">UCR BERCO</Link>
 													</li>
 													{/* <li>
 														<a href="#">
@@ -145,9 +143,7 @@ const NavBar = () => {
 											<div className="col-megamenu">
 												<h6 className="title">UCR</h6>
 												<ul className="list-unstyled">
-													<Link to="/detail-product/ucr-nr">
-														UCR NR
-													</Link>
+													<Link to="/detail-product/ucr-nr">UCR NR</Link>
 													{/* <li>
 														<a href="#">
 															Custom Menu
@@ -180,9 +176,7 @@ const NavBar = () => {
 											<div className="col-megamenu">
 												<h6 className="title">OFM</h6>
 												<ul className="list-unstyled">
-													<Link to="/detail-product/ofm">
-														OFM
-													</Link>
+													<Link to="/detail-product/ofm">OFM</Link>
 													{/* <li>
 														<a href="#">
 															Custom Menu
@@ -213,14 +207,10 @@ const NavBar = () => {
 										</div>
 										<div className="col-md-3">
 											<div className="col-megamenu">
-												<h6 className="title">
-													FEURST
-												</h6>
+												<h6 className="title">FEURST</h6>
 												<ul className="list-unstyled">
 													<li>
-														<Link to="/detail-product/feurst">
-															FEURST
-														</Link>
+														<Link to="/detail-product/feurst">FEURST</Link>
 													</li>
 													{/* <li>
 														<a href="#">
@@ -257,8 +247,7 @@ const NavBar = () => {
 												<ul className="list-unstyled">
 													<li>
 														<Link to="/detail-product/get">
-															Ground Engaging
-															Tools
+															Ground Engaging Tools
 														</Link>
 													</li>
 													{/* <li>
@@ -293,14 +282,10 @@ const NavBar = () => {
 										<div className="col-md-3">
 											<hr />
 											<div className="col-megamenu">
-												<h6 className="title">
-													Sprocket
-												</h6>
+												<h6 className="title">Sprocket</h6>
 												<ul className="list-unstyled">
 													<li>
-														<Link to="/detail-product/get">
-															Sprocket
-														</Link>
+														<Link to="/detail-product/get">Sprocket</Link>
 													</li>
 													{/* <li>
 														<a href="#">
@@ -337,9 +322,7 @@ const NavBar = () => {
 												<h6 className="title">Idler</h6>
 												<ul className="list-unstyled">
 													<li>
-														<Link to="/detail-product/get">
-															Idler
-														</Link>
+														<Link to="/detail-product/get">Idler</Link>
 													</li>
 													{/* <li>
 														<a href="#">
@@ -373,19 +356,13 @@ const NavBar = () => {
 										<div className="col-md-3">
 											<hr />
 											<div className="col-megamenu">
-												<h6 className="title">
-													Others
-												</h6>
+												<h6 className="title">Others</h6>
 												<ul className="list-unstyled">
 													<li>
-														<Link to="/detail-product/repair">
-															Repair
-														</Link>
+														<Link to="/detail-product/repair">Repair</Link>
 													</li>
 													<li>
-														<Link to="/detail-product/service">
-															Service
-														</Link>
+														<Link to="/detail-product/service">Service</Link>
 													</li>
 
 													{/* <li>
@@ -438,10 +415,7 @@ const NavBar = () => {
                 shadow"
 								>
 									<li>
-										<Link
-											to="service-ctp"
-											className="dropdown-item"
-										>
+										<Link to="service-ctp" className="dropdown-item">
 											CTS{' '}
 										</Link>
 									</li>
@@ -478,10 +452,7 @@ const NavBar = () => {
                 shadow"
 								>
 									<li>
-										<Link
-											to="/galery"
-											className="dropdown-item"
-										>
+										<Link to="/galery" className="dropdown-item">
 											Galeri 1{' '}
 										</Link>
 									</li>
