@@ -69,11 +69,6 @@ const NavBar = () => {
 									className="dropdown-menu border-0  shadow"
 								>
 									<li>
-										<Link to="/certificate" className="dropdown-item">
-											Certificate
-										</Link>
-									</li>
-									<li>
 										<Link to="/about" className="dropdown-item">
 											Company Profile{' '}
 										</Link>
@@ -88,6 +83,11 @@ const NavBar = () => {
 									<li>
 										<Link to="/visi" className="dropdown-item">
 											Visi Misi
+										</Link>
+									</li>
+									<li>
+										<Link to="/certificate" className="dropdown-item">
+											Certificate
 										</Link>
 									</li>
 								</ul>
