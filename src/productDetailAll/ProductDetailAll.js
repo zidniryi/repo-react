@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import PDF1 from './pdf/berco1.pdf'
 import PDF2 from './pdf/berco2.pdf'
 import PDF3 from './pdf/berco3.pdf'
+import { Link } from 'react-router-dom'
 
 const ProductDetailAll = () => {
 	return (
@@ -15,15 +16,21 @@ const ProductDetailAll = () => {
 					<div class="col-lg-3">
 						<h1 class="my-4">UCR BERCO</h1>
 						<div class="list-group">
-							<a href={PDF1} target="_blank" class="list-group-item active">
+							<Link to="/sub-tracklink" class="list-group-item active">
 								Tracklink
-							</a>
-							<a href={PDF2} target="_blank" class="list-group-item active">
+							</Link>
+							<Link to="/sub-trackshoes" class="list-group-item active">
 								Trackshoes
-							</a>
-							<a href={PDF3} target="_blank" class="list-group-item active">
+							</Link>
+							<Link to="/sub-rollers" class="list-group-item active">
 								Rollers
-							</a>
+							</Link>
+							<Link to="/sub-iddlers" class="list-group-item active">
+								Idlers
+							</Link>
+							<Link to="/sub-sprockets" class="list-group-item active">
+								Sprockets
+							</Link>
 						</div>
 					</div>
 					{/* <!-- /.col-lg-3 --> */}
@@ -32,7 +39,7 @@ const ProductDetailAll = () => {
 						<div class="card mt-4">
 							<img
 								class="card-img-top img-fluid"
-								src={require('../assets/others/Berco_Rollers.jpg')}
+								src={require('../assets/others/Berco_03.jpg')}
 								alt=""
 							/>
 							<div class="card-body">
@@ -78,24 +85,6 @@ const ProductDetailAll = () => {
 										<li>Longer joint life;</li>
 										<li>Improved serviceability & easy maintenance;</li>
 										<li>Ultimately, significantly improved total cost/hour.</li>
-									</ul>
-								</p>
-								{/* <a href="#" class="btn btn-success">
-									Leave a Review
-								</a> */}
-							</div>
-						</div>
-
-						<div class="card card-outline-secondary my-4">
-							<div class="card-header">Parts : </div>
-							<div class="card-body">
-								<p>
-									<ul>
-										<li>Track Link</li>
-										<li>Track Link</li>
-										<li>Track Link</li>
-										<li>Sprockets / Segments </li>
-										<li>Sprockets / Segments </li>
 									</ul>
 								</p>
 								{/* <a href="#" class="btn btn-success">

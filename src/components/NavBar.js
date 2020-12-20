@@ -416,13 +416,13 @@ const NavBar = () => {
 								>
 									<li>
 										<Link to="service-ctp" className="dropdown-item">
-											CTS{' '}
+											PTS{' '}
 										</Link>
 									</li>
 									<li>
-										<a href="#" className="dropdown-item">
+										<Link to="service-repair" className="dropdown-item">
 											REPAIR
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</li>

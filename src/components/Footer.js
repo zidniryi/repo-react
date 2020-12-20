@@ -23,23 +23,19 @@ const Footer = () => {
 						</div> */}
 						<div className="col-md-12">
 							<p>
-								PT. Pacific Firstrack Indonesia (Pafindo) is one
-								of the Indonesia's largest independent
-								distributor of specialist undercarriage parts,
-								Ground Engaging Tools (GET) parts, and
-								Filtration parts. Our products are used for
-								Track-type Tractors (Bulldozers), Hydraulic
-								Excavators, Motor Graders.
+								PT. Pacific Firstrack Indonesia (Pafindo) is one of the
+								Indonesia's largest independent distributor of specialist
+								undercarriage parts, Ground Engaging Tools (GET) parts, and
+								Filtration parts. Our products are used for Track-type Tractors
+								(Bulldozers), Hydraulic Excavators, Motor Graders.
 							</p>
 							<p>
-								Established since 2007 in Balikpapan city,
-								Pafindo has grown from a small trader of various
-								kinds of spare parts to become a reputable
-								one-stop centre for Undercarriage parts, Ground
-								Engaging Tools (GET) parts, and Filtration parts
-								in Indonesia. We are specialist in supplying and
-								stockist for Undercarriage parts, Ground
-								Engaging Tools (GET) parts and Filtration parts.
+								Established since 2007 in Balikpapan city, Pafindo has grown
+								from a small trader of various kinds of spare parts to become a
+								reputable one-stop centre for Undercarriage parts, Ground
+								Engaging Tools (GET) parts, and Filtration parts in Indonesia.
+								We are specialist in supplying and stockist for Undercarriage
+								parts, Ground Engaging Tools (GET) parts and Filtration parts.
 							</p>
 							<p>
 								<Link
@@ -171,28 +167,20 @@ const Footer = () => {
 										<i className="fa fa-facebook"></i>
 									</a>
 								</li>
+
 								<li className="list-inline-item">
-									<a href="https://www.fiverr.com/share/qb8D02">
-										<i className="fa fa-twitter"></i>
-									</a>
-								</li>
-								<li className="list-inline-item">
-									<a href="https://www.fiverr.com/share/qb8D02">
+									<a href="https://www.instagram.com/pacificfirstrackindonesia/?igshid=1c6qmhz7iq1yb">
 										<i className="fa fa-instagram"></i>
 									</a>
 								</li>
-								<li className="list-inline-item">
-									<a href="https://www.fiverr.com/share/qb8D02">
-										<i className="fa fa-google-plus"></i>
-									</a>
-								</li>
+
 								<li className="list-inline-item">
 									<a
-										href="https://www.fiverr.com/share/qb8D02"
+										href="https://www.youtube.com/channel/UCeiDoXQ335kGmDHmzoWb6qw"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										<i className="fa fa-envelope"></i>
+										<i className="fa fa-play"></i>
 									</a>
 								</li>
 							</ul>

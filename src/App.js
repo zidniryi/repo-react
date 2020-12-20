@@ -23,6 +23,12 @@ import ProductDetailAllGet from './productDetailAll/ProductDetailAllGet'
 import ProductDetailAllRepair from './productDetailAll/ProductDetailAllRepair'
 import ProductDetailAllService from './productDetailAll/ProductDetailAllService'
 import Certificate from './certificate/Certificate'
+import ServiceRepair from './service/ServiceRepair'
+import TrackLink from './subProduct/berco/TrackLink'
+import TrackShoes from './subProduct/berco/TrackShoes'
+import Rollers from './subProduct/berco/Rollers'
+import Iddlers from './subProduct/berco/Iddlers'
+import Sprockets from './subProduct/berco/Sprockets'
 
 const App = () => {
 	return (
@@ -40,6 +46,17 @@ const App = () => {
 					<Route exact path={'/catalog'} component={Catalog} />
 					<Route exact path={'/pdf'} component={PdfViewer} />
 					<Route exact path={'/service-ctp'} component={ServiceCTP} />
+					<Route exact path={'/service-repair'} component={ServiceRepair} />
+
+					{/* Sub */}
+					<Route exact path={'/sub-tracklink'} component={TrackLink} />
+					<Route exact path={'/sub-trackshoes'} component={TrackShoes} />
+					<Route exact path={'/sub-rollers'} component={Rollers} />
+					<Route exact path={'/sub-iddlers'} component={Iddlers} />
+					<Route exact path={'/sub-sprockets'} component={Sprockets} />
+
+					{/* Sub */}
+
 					<Route exact path={'/customer'} component={Customer} />
 					<Route exact path={'/form-contact'} component={FormContact} />
 					<Route exact path={'/detail-product'} component={ProductDetail} />
