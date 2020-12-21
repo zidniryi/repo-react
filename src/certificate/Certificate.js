@@ -15,6 +15,17 @@ const Certificate = () => {
 				</h2>
 				<hr />
 				<a
+					href={require('../assets/certificate/Business_Partnership_BERCO_page-0001.jpg')}
+					target="_blank"
+				>
+					<img
+						src={require('../assets/certificate/Business_Partnership_BERCO_page-0001.jpg')}
+						alt="Certificate Pafindo"
+						className="img-fluid"
+					/>
+				</a>
+				<hr />
+				<a
 					href={require('../assets/certificate/Authorized Distributor Certificate OFM_page-0001.jpg')}
 					target="_blank"
 				>
@@ -44,17 +55,6 @@ const Certificate = () => {
 				>
 					<img
 						src={require('../assets/certificate/FEURST PAFINDO DEALER CERTIFICATE_page-0001.jpg')}
-						alt="Certificate Pafindo"
-						className="img-fluid"
-					/>
-				</a>
-				<hr />
-				<a
-					href={require('../assets/certificate/Business_Partnership_BERCO_page-0001.jpg')}
-					target="_blank"
-				>
-					<img
-						src={require('../assets/certificate/Business_Partnership_BERCO_page-0001.jpg')}
 						alt="Certificate Pafindo"
 						className="img-fluid"
 					/>

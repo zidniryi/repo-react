@@ -29,6 +29,16 @@ import TrackShoes from './subProduct/berco/TrackShoes'
 import Rollers from './subProduct/berco/Rollers'
 import Iddlers from './subProduct/berco/Iddlers'
 import Sprockets from './subProduct/berco/Sprockets'
+import NRTracklink from './subProduct/nr/NRTrackLink'
+import NRTrackShoes from './subProduct/nr/NRTrackShoes'
+import NRRollers from './subProduct/nr/NRRollers'
+import NRIddlers from './subProduct/berco/NRIddlers'
+import NRSprockets from './subProduct/nr/NRSprockets'
+import TrackFrame from './subProduct/ofm/TrackFrame'
+import PinBush from './subProduct/ofm/PinBush'
+import EqualizerBar from './subProduct/ofm/EqualizerBar'
+import PivotShaft from './subProduct/ofm/PivotShaft'
+import SwingBearing from './subProduct/ofm/SwingBearing'
 
 const App = () => {
 	return (
@@ -54,6 +64,24 @@ const App = () => {
 					<Route exact path={'/sub-rollers'} component={Rollers} />
 					<Route exact path={'/sub-iddlers'} component={Iddlers} />
 					<Route exact path={'/sub-sprockets'} component={Sprockets} />
+
+					{/* Sub */}
+
+					{/* Sub */}
+					<Route exact path={'/sub-nr-tracklink'} component={NRTracklink} />
+					<Route exact path={'/sub-nr-trackshoes'} component={NRTrackShoes} />
+					<Route exact path={'/sub-nr-rollers'} component={NRRollers} />
+					<Route exact path={'/sub-nr-iddlers'} component={NRIddlers} />
+					<Route exact path={'/sub-nr-sprockets'} component={NRSprockets} />
+
+					{/* Sub */}
+
+					{/* Sub */}
+					<Route exact path={'/sub-track-frame'} component={TrackFrame} />
+					<Route exact path={'/sub-pin-bush'} component={PinBush} />
+					<Route exact path={'/sub-equalizer-bar'} component={EqualizerBar} />
+					<Route exact path={'/sub-pivot-shaft'} component={PivotShaft} />
+					<Route exact path={'/sub-swing-bearing'} component={SwingBearing} />
 
 					{/* Sub */}
 
