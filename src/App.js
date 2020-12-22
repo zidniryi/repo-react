@@ -39,6 +39,7 @@ import PinBush from './subProduct/ofm/PinBush'
 import EqualizerBar from './subProduct/ofm/EqualizerBar'
 import PivotShaft from './subProduct/ofm/PivotShaft'
 import SwingBearing from './subProduct/ofm/SwingBearing'
+import CuttingEdge from './subProduct/get/CuttingEdge'
 
 const App = () => {
 	return (
@@ -82,6 +83,11 @@ const App = () => {
 					<Route exact path={'/sub-equalizer-bar'} component={EqualizerBar} />
 					<Route exact path={'/sub-pivot-shaft'} component={PivotShaft} />
 					<Route exact path={'/sub-swing-bearing'} component={SwingBearing} />
+					<Route
+						exact
+						path={'/sub-cutting-edge-and-end-bit'}
+						component={CuttingEdge}
+					/>
 
 					{/* Sub */}
 

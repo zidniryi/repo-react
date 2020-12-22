@@ -55,9 +55,7 @@ const NRSprockets = () => {
 								></iframe>
 							</div>
 						</div>
-						{/* <!-- /.card --> */}
 					</div>
-					{/* <!-- /.col-lg-9 --> */}
 				</div>
 			</div>
 			<Footer />
