@@ -1703,3 +1703,44 @@ section .section-title {
 	height: 60px;
 	margin-bottom: 20px;
 }
+
+/* Navbar  Mobiles*/
+
+/* Navbat Mobile Styles */
+body.offcanvas-active {
+	overflow: hidden;
+	box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+}
+.offcanvas-header {
+	display: none;
+}
+
+@media (max-width: 924px) {
+	.offcanvas-header {
+		display: block;
+	}
+	.navbar-collapse {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 100%;
+		width: 100%;
+		padding-right: 1rem;
+		padding-left: 1rem;
+		overflow-y: auto;
+		visibility: hidden;
+		background-color: white;
+		transition: visibility 0.2s ease-in-out, transform 0.2s ease-in-out;
+	}
+	.navbar-collapse.show {
+		visibility: visible;
+		transform: translateX(-100%);
+		z-index: 60;
+	}
+	.navbar-light {
+		box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, 0.5);
+		z-index: 60;
+		border-bottom: rgba(0, 0, 0, 0.1);
+		border-bottom-width: 5;
+	}
+}

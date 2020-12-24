@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import Footer from '../../components/Footer'
 import NavBar from '../../components/NavBar'
+import index from './json/tf1.json'
 const TrackFrame = () => {
 	return (
 		<Fragment>
@@ -53,16 +54,32 @@ const TrackFrame = () => {
 							</div>
 						</div>
 						{/* <!-- /.card --> */}
-
-						<div class="card card-outline-secondary my-4">
-							<div class="card-header">ROLLERS EXCEL </div>
-							<div class="card-body">
-								<iframe
-									width="100%"
-									height="600px"
-									src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR8nzZJYFtLia64CsvX_PdwjLMDKGUGTpIOgoZruD6IUfSvsL_naD7X_JlEru6llw/pubhtml?widget=true&amp;headers=false"
-								></iframe>
-							</div>
+						<div>
+							<h3 class="text-light bg-info">
+								TRACK FRAME - SUSPENSION BOGIE{' '}
+							</h3>
+							<table class="table table-striped">
+								{/* <thead class="thead-dark">
+									<tr>
+										<th scope="col">No</th>
+										<th scope="col">OEM PARTNO</th>
+										<th scope="col">Description</th>
+										<th scope="col">MODEL UNIT</th>
+									</tr>
+								</thead> */}
+								<tbody>
+									{index.map((data, index) => (
+										<tr>
+											<th scope="row">
+												{data['TRACK FRAME - SUSPENSION BOGIE']}
+											</th>
+											<td>{data.FIELD2}</td>
+											<td>{data.FIELD3}</td>
+											<td>{data.Model}</td>
+										</tr>
+									))}
+								</tbody>
+							</table>
 						</div>
 						{/* <!-- /.card --> */}
 					</div>

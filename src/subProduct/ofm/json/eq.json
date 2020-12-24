@@ -1,0 +1,170 @@
+[
+	{
+		"No": 1,
+		"PartNumber": "195-50-00182-OFM",
+		"Description": "EQUALIZER BAR",
+		"MODEL": "D375A-5"
+	},
+	{
+		"No": 2,
+		"PartNumber": "195-50-41120-OFM",
+		"Description": "SHAFT EQ",
+		"MODEL": "D375A-5"
+	},
+	{
+		"No": 3,
+		"PartNumber": "195-50-41132-OFM",
+		"Description": "CENTRAL BUSHING EQ",
+		"MODEL": "D375A-5"
+	},
+	{
+		"No": 4,
+		"PartNumber": "195-50-41161-OFM",
+		"Description": "SPH BUSHING EQ",
+		"MODEL": "D375A-5"
+	},
+	{
+		"No": 5,
+		"PartNumber": "195-50-41170-OFM",
+		"Description": "SEAL EQ",
+		"MODEL": "D375A-5"
+	},
+	{
+		"No": 6,
+		"PartNumber": "195-50-51150-OFM",
+		"Description": "SHAFT EQ",
+		"MODEL": "D375A-5"
+	},
+	{
+		"No": 7,
+		"PartNumber": "140-9699-OFM",
+		"Description": "EQUALIZER BAR GP",
+		"MODEL": "D9R"
+	},
+	{
+		"No": 8,
+		"PartNumber": "380-7673-OFM",
+		"Description": "BUSHING CENTRAL (D9R)",
+		"MODEL": "D9R"
+	},
+	{
+		"No": 9,
+		"PartNumber": "117-4015-OFM",
+		"Description": "BUSHING (D9R)",
+		"MODEL": "D9R"
+	},
+	{
+		"No": 10,
+		"PartNumber": "380-7674-OFM",
+		"Description": "BEARING",
+		"MODEL": "D9R"
+	},
+	{
+		"No": 11,
+		"PartNumber": "9P 7990-OFM",
+		"Description": "BUSHING TELESCOPIC",
+		"MODEL": "D9R"
+	},
+	{
+		"No": 12,
+		"PartNumber": "222-3682-OFM",
+		"Description": "EQUALIZER BAR GP",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 13,
+		"PartNumber": "251-9905-OFM",
+		"Description": "BUSHING CENTRAL (D10R)",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 14,
+		"PartNumber": "7G 1958-OFM",
+		"Description": "BUSHING FRAME",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 15,
+		"PartNumber": "7G 1952-OFM",
+		"Description": "BEARING",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 16,
+		"PartNumber": "380-7675-OFM",
+		"Description": "SPH BEARING",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 17,
+		"PartNumber": "380-7676-OFM",
+		"Description": "SPH BEARING (D1OR)",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 18,
+		"PartNumber": "7T 4134-OFM",
+		"Description": "BUSHING",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 19,
+		"PartNumber": "7T 4135-OFM",
+		"Description": "BUSHING",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 20,
+		"PartNumber": "7T 4145-OFM",
+		"Description": "SLEEVE",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 21,
+		"PartNumber": "7T 4966-OFM",
+		"Description": "CAP",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 22,
+		"PartNumber": "9W 7919-OFM",
+		"Description": "BUSHING",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 23,
+		"PartNumber": "129-8171-OFM",
+		"Description": "BUSHING",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 24,
+		"PartNumber": "129-8172-OFM",
+		"Description": "RETAINER",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 25,
+		"PartNumber": "9W 2380-OFM",
+		"Description": "RETAINER",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 26,
+		"PartNumber": "1U 1187-OFM",
+		"Description": "BEARING",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 27,
+		"PartNumber": "3T 4214-OFM",
+		"Description": "SHAFT (D10R)",
+		"MODEL": "D10R"
+	},
+	{
+		"No": 28,
+		"PartNumber": "3T 4238-OFM",
+		"Description": "BUSHING",
+		"MODEL": "D10R"
+	}
+]

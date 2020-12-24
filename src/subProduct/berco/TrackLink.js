@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react'
 import Footer from '../../components/Footer'
 import NavBar from '../../components/NavBar'
+import tracklink from './json/tracklink.json'
 const TrackLink = () => {
+	console.log()
 	return (
 		<Fragment>
 			<NavBar />
@@ -48,15 +50,30 @@ const TrackLink = () => {
 						</div>
 						{/* <!-- /.card --> */}
 
-						<div class="card card-outline-secondary my-4">
-							<div class="card-header">TRACLINK EXCEL </div>
-							<div class="card-body">
-								<iframe
-									src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTpDguSGvrYXSxifL2O0NVhNXXj8lAdfizwel9TBQXg8sbTHabcD62r3LaCdgKXwA/pubhtml?widget=true&amp;headers=false"
-									width="100%"
-									height="600px"
-								></iframe>
-							</div>
+						<div>
+							<h3 class="text-light bg-info">Iddlers</h3>
+							<table class="table table-striped">
+								<thead class="thead-dark">
+									<tr>
+										<th scope="col">No</th>
+										<th scope="col">OEM PARTNO</th>
+										<th scope="col">BERCO PARTNO</th>
+										<th scope="col">Description</th>
+										<th scope="col">MODEL UNIT</th>
+									</tr>
+								</thead>
+								<tbody>
+									{tracklink.map((data, index) => (
+										<tr>
+											<th scope="row">{data.NO}</th>
+											<td>{data['OEM PARTNO']}</td>
+											<td>{data['BERCO PARTNO']}</td>
+											<td>{data.DESCRIPTION}</td>
+											<td>{data['MODEL UNIT']}</td>
+										</tr>
+									))}
+								</tbody>
+							</table>
 						</div>
 						{/* <!-- /.card --> */}
 					</div>

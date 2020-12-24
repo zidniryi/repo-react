@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import Footer from '../../components/Footer'
 import NavBar from '../../components/NavBar'
+import rollers from './json/rollers.json'
+
 const Rollers = () => {
 	return (
 		<Fragment>
@@ -54,15 +56,30 @@ const Rollers = () => {
 						</div>
 						{/* <!-- /.card --> */}
 
-						<div class="card card-outline-secondary my-4">
-							<div class="card-header">ROLLERS EXCEL </div>
-							<div class="card-body">
-								<iframe
-									width="100%"
-									height="600px"
-									src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSxAOv2PWgoBve66n3IJAp9lnNaQOU9Bo0AKC7jX6kPdMiiY9moBm3x4HyzpZo8ZA/pubhtml?widget=true&amp;headers=false"
-								></iframe>
-							</div>
+						<div>
+							<h3 class="text-light bg-info">Rollers</h3>
+							<table class="table table-striped">
+								<thead class="thead-dark">
+									<tr>
+										<th scope="col">No</th>
+										<th scope="col">OEM PARTNO</th>
+										<th scope="col">BERCO PARTNO</th>
+										<th scope="col">Description</th>
+										<th scope="col">MODEL UNIT</th>
+									</tr>
+								</thead>
+								<tbody>
+									{rollers.map((data, index) => (
+										<tr>
+											<th scope="row">{data.NO}</th>
+											<td>{data['OEM PARTNO']}</td>
+											<td>{data['BERCO PARTNO']}</td>
+											<td>{data.DESCRIPTION}</td>
+											<td>{data['MODEL UNIT']}</td>
+										</tr>
+									))}
+								</tbody>
+							</table>
 						</div>
 						{/* <!-- /.card --> */}
 					</div>

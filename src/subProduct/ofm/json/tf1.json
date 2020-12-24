@@ -1,0 +1,458 @@
+[
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "1",
+		"FIELD2": "195-30-62141-OFM",
+		"FIELD3": "CAP ROLLER (D375)",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "2",
+		"FIELD2": "195-30-66510-OFM",
+		"FIELD3": "BOGIE AS. MIDDLE",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "3",
+		"FIELD2": "195-30-66520-OFM",
+		"FIELD3": "BOGIE AS. MINOR",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "4",
+		"FIELD2": "195-30-66550-OFM",
+		"FIELD3": "BOGIE AS. FRONT",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "5",
+		"FIELD2": "195-30-66531-OFM",
+		"FIELD3": "PAD BOGIE (D375)",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "6",
+		"FIELD2": "195-30-66580-OFM",
+		"FIELD3": "COVER",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "7",
+		"FIELD2": "195-30-67230-OFM",
+		"FIELD3": "GUIDE BOGIE",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "8",
+		"FIELD2": "195-50-22190-OFM",
+		"FIELD3": "BUSHING TRACK FRAME",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "9",
+		"FIELD2": "195-50-22210-OFM",
+		"FIELD3": "BUSHING",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "10",
+		"FIELD2": "195-50-41140-OFM",
+		"FIELD3": "BUSHING",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "11",
+		"FIELD2": "198-30-56132-OFM",
+		"FIELD3": "PAD BOGIE",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "12",
+		"FIELD2": "195-30-31221-OFM",
+		"FIELD3": "BUSHING",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "13",
+		"FIELD2": "195-30-34121-OFM",
+		"FIELD3": "BUSHING SLEEVE",
+		"Model": "D375A-5"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "TRACK FRAME - SUSPENSION BOGIE",
+		"FIELD2": "",
+		"FIELD3": "",
+		"Model": ""
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "1",
+		"FIELD2": "7T 9307HD-OFM",
+		"FIELD3": "CARTRIDGE ASS'Y HEAVY DUTY",
+		"Model": ""
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "2",
+		"FIELD2": "7T 9307-OFM",
+		"FIELD3": "CARTRIDGE ASS'Y",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "4",
+		"FIELD2": "134-2679-OFM",
+		"FIELD3": "BOGIE AS FRONT (D9R)",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "5",
+		"FIELD2": "134-2680-OFM",
+		"FIELD3": "BOGIE AS REAR (D9R)",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "19",
+		"FIELD2": "7T 5417-OFM",
+		"FIELD3": "BOGIE AS MIDDLE (D9R)",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "7",
+		"FIELD2": "157-3106-OFM",
+		"FIELD3": "BOGIE MINOR RH (D9R)",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "8",
+		"FIELD2": "157-3107-OFM",
+		"FIELD3": "BOGIE MINOR LH (D9R)",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "21",
+		"FIELD2": "7T 5420-OFM",
+		"FIELD3": "BOGIE MINOR (D9R)",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "4",
+		"FIELD2": "131-1651-OFM",
+		"FIELD3": "CAP AS ROLLER",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "17",
+		"FIELD2": "6T 4964-OFM",
+		"FIELD3": "CAP A",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "11",
+		"FIELD2": "306-9431-OFM",
+		"FIELD3": "CAP AS",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "12",
+		"FIELD2": "306-9443-OFM",
+		"FIELD3": "CAP AS TCK",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "13",
+		"FIELD2": "306-9445-OFM",
+		"FIELD3": "CAP AS TCK",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "20",
+		"FIELD2": "7T 5419-OFM",
+		"FIELD3": "PAD",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "22",
+		"FIELD2": "7T 5959-OFM",
+		"FIELD3": "PAD A",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "23",
+		"FIELD2": "9G 1696-OFM",
+		"FIELD3": "PAD A",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "24",
+		"FIELD2": "9G 1697-OFM",
+		"FIELD3": "PAD A (D9R)",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "9",
+		"FIELD2": "184-4395-OFM",
+		"FIELD3": "GUIDE",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "9",
+		"FIELD2": "184-4396-OFM",
+		"FIELD3": "GUIDE",
+		"Model": "D8R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "TRACK FRAME - SUSPENSION BOGIE",
+		"FIELD2": "",
+		"FIELD3": "",
+		"Model": ""
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "1",
+		"FIELD2": "7T 9307HD-OFM",
+		"FIELD3": "CARTRIDGE ASS'Y HEAVY DUTY",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "2",
+		"FIELD2": "7T 9307-OFM",
+		"FIELD3": "CARTRIDGE ASS'Y",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "4",
+		"FIELD2": "134-2679-OFM",
+		"FIELD3": "BOGIE AS FRONT (D9R)",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "5",
+		"FIELD2": "134-2680-OFM",
+		"FIELD3": "BOGIE AS REAR (D9R)",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "19",
+		"FIELD2": "7T 5417-OFM",
+		"FIELD3": "BOGIE AS MIDDLE (D9R)",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "7",
+		"FIELD2": "157-3106-OFM",
+		"FIELD3": "BOGIE MINOR RH (D9R)",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "8",
+		"FIELD2": "157-3107-OFM",
+		"FIELD3": "BOGIE MINOR LH (D9R)",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "21",
+		"FIELD2": "7T 5420-OFM",
+		"FIELD3": "BOGIE MINOR (D9R)",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "4",
+		"FIELD2": "131-1651-OFM",
+		"FIELD3": "CAP AS ROLLER",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "17",
+		"FIELD2": "6T 4964-OFM",
+		"FIELD3": "CAP A",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "11",
+		"FIELD2": "306-9431-OFM",
+		"FIELD3": "CAP AS",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "12",
+		"FIELD2": "306-9443-OFM",
+		"FIELD3": "CAP AS TCK",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "13",
+		"FIELD2": "306-9445-OFM",
+		"FIELD3": "CAP AS TCK",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "20",
+		"FIELD2": "7T 5419-OFM",
+		"FIELD3": "PAD",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "22",
+		"FIELD2": "7T 5959-OFM",
+		"FIELD3": "PAD A",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "23",
+		"FIELD2": "9G 1696-OFM",
+		"FIELD3": "PAD A",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "24",
+		"FIELD2": "9G 1697-OFM",
+		"FIELD3": "PAD A (D9R)",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "9",
+		"FIELD2": "184-4395-OFM",
+		"FIELD3": "GUIDE",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "9",
+		"FIELD2": "184-4396-OFM",
+		"FIELD3": "GUIDE",
+		"Model": "D9R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "TRACK FRAME - SUSPENSION BOGIE",
+		"FIELD2": "",
+		"FIELD3": "",
+		"Model": ""
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "1",
+		"FIELD2": "128-4414-OFM",
+		"FIELD3": "BOGIE A (REAR) D10R",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "2",
+		"FIELD2": "126-8588-OFM",
+		"FIELD3": "BOGIE A (FRONT ) D10R",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "3",
+		"FIELD2": "7T 0375-OFM",
+		"FIELD3": "BOGIE A (MIDDLE) D10R",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "4",
+		"FIELD2": "156-4208-OFM",
+		"FIELD3": "BOGIE-MINOR (D10R)",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "5",
+		"FIELD2": "156-4209-OFM",
+		"FIELD3": "BOGIE-MINOR (D10R)",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "6",
+		"FIELD2": "6T 1382-OFM",
+		"FIELD3": "BOGIE MINOR",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "7",
+		"FIELD2": "7T 9309HD-OFM",
+		"FIELD3": "CARTRIDGE ASS'Y HEAVY DUTY",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "8",
+		"FIELD2": "7T 9309-OFM",
+		"FIELD3": "CARTRIDGE ASS'Y",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "9",
+		"FIELD2": "131-1650-OFM",
+		"FIELD3": "CAP AS ROLLER",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "10",
+		"FIELD2": "306-9447-OFM",
+		"FIELD3": "CAP AS FR IDLER",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "11",
+		"FIELD2": "306-9449-OFM",
+		"FIELD3": "CAP AS IDLER REAR",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "12",
+		"FIELD2": "213-7322-OFM",
+		"FIELD3": "PAD AS. (D10R)",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "13",
+		"FIELD2": "7G 2704-OFM",
+		"FIELD3": "PAD AS. (D10R)",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "14",
+		"FIELD2": "7T 5959-OFM",
+		"FIELD3": "PAD AS. (D10R)",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "15",
+		"FIELD2": "7T 4130-OFM",
+		"FIELD3": "GUIDE",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "16",
+		"FIELD2": "7T 4133-OFM",
+		"FIELD3": "PLATE",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "17",
+		"FIELD2": "7G 3907-OFM",
+		"FIELD3": "COVER",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "18",
+		"FIELD2": "7G 9709-OFM",
+		"FIELD3": "BUSHING",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "19",
+		"FIELD2": "426-3786-OFM",
+		"FIELD3": "COVER AS",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "20",
+		"FIELD2": "4T 3797-OFM",
+		"FIELD3": "CONNECTOR A",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "21",
+		"FIELD2": "9W 5575-OFM",
+		"FIELD3": "COVER A",
+		"Model": "D10R"
+	},
+	{
+		"TRACK FRAME - SUSPENSION BOGIE": "22",
+		"FIELD2": "138-2828-OFM",
+		"FIELD3": "CONNECTOR A",
+		"Model": "D10R"
+	}
+]
