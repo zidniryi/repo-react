@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import { useMediaQuery } from 'react-responsive'
+import { slide as Menu } from 'react-burger-menu'
+// https://reactjsexample.com/customizable-and-responsive-react-sidebar-library-with-dropdown-menus/
 
 const NavBar = () => {
 	const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 })
@@ -9,304 +11,92 @@ const NavBar = () => {
 	return (
 		<Fragment>
 			{isTabletOrMobile || isTabletOrMobileDevice ? (
-				<nav
-					class="navbar navbar-expand-lg navbar-light"
-					style={{
-						elevation: 5,
-						zIndex: 20,
-					}}
-				>
-					<Link
-						className="navbar-brand mx-auto"
-						to="/"
-						onClick={() => window.location.reload()}
-						// onClick={() => this.props.history.push('/')}
+				<div>
+					<div
+						className="nav-burger"
+						style={{
+							width: '100%',
+							height: 60,
+							backgroundColor: '#fff',
+							shadowColor: '#000',
+							shadowOffset: {
+								width: 0,
+								height: 2,
+							},
+							shadowOpacity: 0.25,
+							shadowRadius: 3.84,
+
+							elevation: 5,
+							border: 10,
+							borderWidth: 10,
+							borderColor: 'red',
+							zIndex: 10,
+							position: 'fixed',
+							alignItems: 'center',
+							justifyContent: 'center',
+							flexDirection: 'row',
+						}}
 					>
-						<img
-							src={require('../assets/logo/logo.jpg')}
-							className="img-fluid"
-							width="200"
-						/>
-					</Link>
-					<button class="navbar-toggler" type="button" data-trigger="#main_nav">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="navbar-collapse" id="main_nav" style={{ zIndex: 20 }}>
-						<div class="offcanvas-header mt-3">
-							<button class="btn btn-outline-danger btn-close float-right">
-								X
-							</button>
-							{/* <h5 class="py-2 text-dark">Main navbar</h5> */}
-						</div>
-
-						<ul className="navbar-nav ml-auto">
-							<li className="nav-item active">
-								{' '}
-								<Link className="nav-link" to="/">
+						<div>
+							<Menu
+								customBurgerIcon={
+									<img src={require('../assets/icon/align-left.svg')} />
+								}
+							>
+								<a
+									id="home"
+									className="menu-item"
+									href="/"
+									style={{ color: 'white' }}
+								>
 									Home
-									<span className="sr-only">(current)</span>
-								</Link>{' '}
-							</li>
-
-							<li className="nav-item dropdown">
-								<a
-									id="dropdownMenu1"
-									href="#"
-									data-toggle="dropdown"
-									aria-haspopup="true"
-									aria-expanded="false"
-									className="nav-link
-                dropdown-toggle"
-								>
-									About Us
 								</a>
-								<ul
-									aria-labelledby="dropdownMenu1"
-									className="dropdown-menu border-0
-                shadow"
-								>
-									<li>
-										<Link
-											to="/about"
-											className="dropdown-item"
-											//onClick={() => document.location.reload()}
-										>
-											Company Profile{' '}
-										</Link>
-									</li>
-									<li>
-										<Link to="/visi" className="dropdown-item">
-											Visi Misi
-										</Link>
-									</li>
-									<li>
-										<Link to="/customer" className="dropdown-item">
-											Customer
-										</Link>
-									</li>
-								</ul>
-							</li>
-
-							<li className="nav-item dropdown has-megamenu">
 								<a
-									className="nav-link dropdown-toggle"
-									href="#"
-									data-toggle="dropdown"
+									id="about"
+									className="menu-item"
+									href="/about"
+									style={{ color: 'white' }}
 								>
-									{' '}
-									Product{' '}
+									About
 								</a>
-								<div className="dropdown-menu megamenu">
-									<div className="row">
-										<div className="col-md-3">
-											<div className="col-megamenu">
-												<h6 className="title">Title Menu Satu</h6>
-												<ul className="list-unstyled">
-													<li>
-														<Link to="/product">Product One</Link>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div className="col-md-3">
-											<div className="col-megamenu">
-												<h6 className="title">Title Menu Two</h6>
-												<ul className="list-unstyled">
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div className="col-md-3">
-											<div className="col-megamenu">
-												<h6 className="title">Title Menu Three</h6>
-												<ul className="list-unstyled">
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div className="col-md-3">
-											<div className="col-megamenu">
-												<h6 className="title">Title Menu Four</h6>
-												<ul className="list-unstyled">
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-												</ul>
-											</div>
-										</div>
-										<div className="col-md-3">
-											<hr />
-											<div className="col-megamenu">
-												<h6 className="title">Title Menu Five</h6>
-												<ul className="list-unstyled">
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-													<li>
-														<a href="#">Custom Menu</a>
-													</li>
-												</ul>
-											</div>
-										</div>
+
+								<div class="dropdown show">
+									<a
+										class="btn btn-secondary dropdown-toggle"
+										href="#"
+										role="button"
+										id="dropdownMenuLink"
+										data-toggle="dropdown"
+										aria-haspopup="true"
+										aria-expanded="false"
+									>
+										About Us
+									</a>
+
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+										<a class="dropdown-item" href="#">
+											Action
+										</a>
+										<a class="dropdown-item" href="#">
+											Another action
+										</a>
+										<a class="dropdown-item" href="#">
+											Something else here
+										</a>
 									</div>
 								</div>
-							</li>
-
-							<li className="nav-item dropdown">
-								<a
-									id="dropdownMenu1"
-									href="#"
-									data-toggle="dropdown"
-									aria-haspopup="true"
-									aria-expanded="false"
-									className="nav-link
-                dropdown-toggle"
-								>
-									Service
-								</a>
-								<ul
-									aria-labelledby="dropdownMenu1"
-									className="dropdown-menu border-0
-                shadow"
-								>
-									<li>
-										<Link to="service-ctp" className="dropdown-item">
-											CTS{' '}
-										</Link>
-									</li>
-									<li>
-										<a href="#" className="dropdown-item">
-											REPAIR
-										</a>
-									</li>
-								</ul>
-							</li>
-
-							<li className="nav-item">
-								{' '}
-								<Link className="nav-link" to="/catalog">
-									E-Catalog
-								</Link>
-							</li>
-
-							<li className="nav-item dropdown">
-								<a
-									id="dropdownMenu1"
-									href="#"
-									data-toggle="dropdown"
-									aria-haspopup="true"
-									aria-expanded="false"
-									className="nav-link
-                dropdown-toggle"
-								>
-									Event
-								</a>
-								<ul
-									aria-labelledby="dropdownMenu1"
-									className="dropdown-menu border-0
-                shadow"
-								>
-									<li>
-										<Link to="/galery" className="dropdown-item">
-											Galeri 1{' '}
-										</Link>
-									</li>
-									<li>
-										<a href="#" className="dropdown-item">
-											Galeri 2
-										</a>
-									</li>
-								</ul>
-							</li>
-							<li className="nav-item">
-								{' '}
-								<Link
-									className="nav-link"
-									to="/contact"
-									//onClick={() => document.location.reload()}
-								>
-									Contact
-								</Link>
-							</li>
-						</ul>
+							</Menu>
+						</div>
+						<div>
+							<img
+								src={require('../assets/logo/logo.jpg')}
+								className="img-fluid"
+								width="150"
+								style={{ marginLeft: '35%', marginTop: -50 }}
+							/>
+						</div>
 					</div>
-				</nav>
+				</div>
 			) : (
 				<nav
 					className="navbar navbar-expand-lg mb-4 top-bar navbar-static-top sps
