@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Slider from '../components/Slider'
-import { CardProduct } from './component/CardProduct'
+// import { CardProduct } from './component/CardProduct'
 import CardDeck from './CardDeck'
 import TitleApp from '../title/TitleApp'
 import FooterHome from '../components/FooterHome'
 
 const Home = () => {
+	console.log('home re-rending')
 	return (
 		<Fragment>
 			<TitleApp titleApp="Home Pafindo" />

@@ -15,13 +15,28 @@ const ProductDetailAllFeurst = () => {
 					<div class="col-lg-3">
 						<h1 class="my-4">FEURST</h1>
 						<div class="list-group">
-							<a href={PDF1} target="_blank" class="list-group-item active">
+							<a
+								href={PDF1}
+								target="_blank"
+								class="list-group-item active"
+								rel="noopener noreferrer"
+							>
 								Lihat Catalog 1
 							</a>
-							<a href={PDF2} target="_blank" class="list-group-item active">
+							<a
+								href={PDF2}
+								target="_blank"
+								class="list-group-item active"
+								rel="noopener noreferrer"
+							>
 								Lihat Catalog 2
 							</a>
-							<a href={PDF3} target="_blank" class="list-group-item active">
+							<a
+								href={PDF3}
+								target="_blank"
+								class="list-group-item active"
+								rel="noopener noreferrer"
+							>
 								Lihat Catalog 3
 							</a>
 						</div>

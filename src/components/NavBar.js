@@ -31,7 +31,7 @@ const NavBar = () => {
 							borderWidth: 10,
 							borderColor: 'red',
 							zIndex: 10,
-							position: 'fixed',
+							// position: 'fixed',
 							alignItems: 'center',
 							justifyContent: 'center',
 							flexDirection: 'row',
@@ -47,17 +47,9 @@ const NavBar = () => {
 									id="home"
 									className="menu-item"
 									href="/"
-									style={{ color: 'white' }}
+									style={{ color: 'white', marginLeft: '5%' }}
 								>
 									Home
-								</a>
-								<a
-									id="about"
-									className="menu-item"
-									href="/about"
-									style={{ color: 'white' }}
-								>
-									About
 								</a>
 
 								<div class="dropdown show">
@@ -74,16 +66,117 @@ const NavBar = () => {
 									</a>
 
 									<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-										<a class="dropdown-item" href="#">
-											Action
+										<a class="dropdown-item" href="/about">
+											Company Profile
 										</a>
-										<a class="dropdown-item" href="#">
-											Another action
+										<a class="dropdown-item" href="/customer">
+											Customer
 										</a>
-										<a class="dropdown-item" href="#">
-											Something else here
+										<a class="dropdown-item" href="/visi">
+											Visi Misi
+										</a>
+										<a class="dropdown-item" href="/certificate">
+											Certificate
 										</a>
 									</div>
+								</div>
+
+								<div class="dropdown show" style={{ marginTop: 10 }}>
+									<a
+										class="btn btn-secondary dropdown-toggle"
+										href="#"
+										role="button"
+										id="dropdownMenuLink"
+										data-toggle="dropdown"
+										aria-haspopup="true"
+										aria-expanded="false"
+									>
+										Product
+									</a>
+
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+										<Link class="dropdown-item" to="/detail-product/berco">
+											UCR BERCO
+										</Link>
+										<Link class="dropdown-item" to="/detail-product/berco">
+											UCR NR
+										</Link>
+										<Link class="dropdown-item" to="/detail-product/ofm">
+											OFM
+										</Link>
+										<Link class="dropdown-item" to="/detail-product/feurst">
+											FEURST
+										</Link>
+										<Link class="dropdown-item" to="/detail-product/get">
+											Ground Engaging Tools
+										</Link>
+									</div>
+									<div class="dropdown show" style={{ marginTop: 10 }}>
+										<a
+											class="btn btn-secondary dropdown-toggle"
+											href="#"
+											role="button"
+											id="dropdownMenuLink"
+											data-toggle="dropdown"
+											aria-haspopup="true"
+											aria-expanded="false"
+										>
+											Service
+										</a>
+
+										<div
+											class="dropdown-menu"
+											aria-labelledby="dropdownMenuLink"
+										>
+											<Link class="dropdown-item" to="/service-ctp">
+												PTS
+											</Link>
+											<Link class="dropdown-item" to="/service-repair">
+												REPAIR
+											</Link>
+										</div>
+									</div>
+									<a
+										id="home"
+										className="menu-item"
+										href="/"
+										style={{ color: 'white', marginLeft: '5%' }}
+									>
+										E-Catalog
+									</a>
+									<div class="dropdown show" style={{ marginTop: 10 }}>
+										<a
+											class="btn btn-secondary dropdown-toggle"
+											href="#"
+											role="button"
+											id="dropdownMenuLink"
+											data-toggle="dropdown"
+											aria-haspopup="true"
+											aria-expanded="false"
+										>
+											Event
+										</a>
+
+										<div
+											class="dropdown-menu"
+											aria-labelledby="dropdownMenuLink"
+										>
+											<Link class="dropdown-item" to="/service-ctp">
+												GALERI 1
+											</Link>
+											<Link class="dropdown-item" to="/service-repair">
+												GALERI 1
+											</Link>
+										</div>
+									</div>
+									<a
+										id="home"
+										className="menu-item"
+										href="/contact"
+										style={{ color: 'white', marginLeft: '5%' }}
+									>
+										Contact
+									</a>
 								</div>
 							</Menu>
 						</div>

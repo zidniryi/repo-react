@@ -1,9 +1,7 @@
 import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-import PDF1 from './pdf/1feurst.pdf'
 import PDF2 from './pdf/2feurst.pdf'
-import PDF3 from './pdf/3feurst.pdf'
 import { Link } from 'react-router-dom'
 
 const ProductDetailAllGet = () => {

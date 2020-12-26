@@ -11,7 +11,7 @@ const About = () => {
 			<NavBar />
 			<div
 				className="container"
-				// style={{  }}
+				style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
 			>
 				<h2 style={{ textAlign: 'center', fontWeight: 'bold' }}>About Us :</h2>
 				<hr />

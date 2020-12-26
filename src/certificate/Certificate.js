@@ -17,6 +17,7 @@ const Certificate = () => {
 				<a
 					href={require('../assets/certificate/Business_Partnership_BERCO_page-0001.jpg')}
 					target="_blank"
+					rel="noopener noreferrer"
 				>
 					<img
 						src={require('../assets/certificate/Business_Partnership_BERCO_page-0001.jpg')}
@@ -28,6 +29,7 @@ const Certificate = () => {
 				<a
 					href={require('../assets/certificate/Authorized Distributor Certificate OFM_page-0001.jpg')}
 					target="_blank"
+					rel="noopener noreferrer"
 				>
 					<img
 						src={require('../assets/certificate/Authorized Distributor Certificate OFM_page-0001.jpg')}
@@ -40,6 +42,7 @@ const Certificate = () => {
 				<a
 					href={require('../assets/certificate/Certificate Hi-Air (NR) Korea_page-0001.jpg')}
 					target="_blank"
+					rel="noopener noreferrer"
 				>
 					<img
 						src={require('../assets/certificate/Certificate Hi-Air (NR) Korea_page-0001.jpg')}
@@ -52,6 +55,7 @@ const Certificate = () => {
 				<a
 					href={require('../assets/certificate/FEURST PAFINDO DEALER CERTIFICATE_page-0001.jpg')}
 					target="_blank"
+					rel="noopener noreferrer"
 				>
 					<img
 						src={require('../assets/certificate/FEURST PAFINDO DEALER CERTIFICATE_page-0001.jpg')}

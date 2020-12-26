@@ -4,9 +4,6 @@ import './index.css'
 // import '../src/js/all.js'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
-import * as $ from 'jquery'
-
-window.jQuery = window.$ = $
 
 ReactDOM.render(
 	<React.StrictMode>
