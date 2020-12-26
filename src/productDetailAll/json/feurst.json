@@ -1,0 +1,236 @@
+[
+	{
+		"No.": "",
+		"Part Number": "",
+		"Description": "",
+		"Weight Kgs": ""
+	},
+	{
+		"No.": "",
+		"Part Number": "",
+		"Description": "",
+		"Weight Kgs": ""
+	},
+	{
+		"No.": "TKN10",
+		"Part Number": "",
+		"Description": "",
+		"Weight Kgs": ""
+	},
+	{
+		"No.": 1,
+		"Part Number": "TKN10-1560 A10",
+		"Description": "Adapter 60MM",
+		"Weight Kgs": "31 Kg"
+	},
+	{
+		"No.": 2,
+		"Part Number": "TKN10 PR",
+		"Description": "Tip Penetration Rein",
+		"Weight Kgs": "19 Kg"
+	},
+	{
+		"No.": 3,
+		"Part Number": "TKN10 PE",
+		"Description": "Tip Penetration (V)",
+		"Weight Kgs": "17 Kg"
+	},
+	{
+		"No.": 4,
+		"Part Number": "TKN10 PA",
+		"Description": "Wear Cap",
+		"Weight Kgs": "3 Kg"
+	},
+	{
+		"No.": 5,
+		"Part Number": "TKN10 CLSB",
+		"Description": "Full Pin & Rubber",
+		"Weight Kgs": "0.72 Kg"
+	},
+	{
+		"No.": "TKN11",
+		"Part Number": "",
+		"Description": "",
+		"Weight Kgs": ""
+	},
+	{
+		"No.": 1,
+		"Part Number": "TKN11-1570 A10",
+		"Description": "Adapter 70MM",
+		"Weight Kgs": "45.5 Kg"
+	},
+	{
+		"No.": 2,
+		"Part Number": "TKN11 PR",
+		"Description": "Tip Penetration Rein",
+		"Weight Kgs": "22 Kg"
+	},
+	{
+		"No.": 3,
+		"Part Number": "TKN11 PE",
+		"Description": "Tip Penetration (V)",
+		"Weight Kgs": "21 Kg"
+	},
+	{
+		"No.": 4,
+		"Part Number": "TKN11 PA",
+		"Description": "Wear Cap",
+		"Weight Kgs": "5.26 Kg"
+	},
+	{
+		"No.": 5,
+		"Part Number": "TKN11 CLSB",
+		"Description": "Full Pin & Rubber",
+		"Weight Kgs": "0.9 Kg"
+	},
+	{
+		"No.": "TKN13",
+		"Part Number": "",
+		"Description": "",
+		"Weight Kgs": ""
+	},
+	{
+		"No.": 1,
+		"Part Number": "TKN13-1590 A10",
+		"Description": "Adapter 90MM",
+		"Weight Kgs": "71 Kg"
+	},
+	{
+		"No.": 2,
+		"Part Number": "TKN13 PR",
+		"Description": "Tip Penetration Rein",
+		"Weight Kgs": "31 Kg"
+	},
+	{
+		"No.": 3,
+		"Part Number": "TKN13 PE",
+		"Description": "Tip Penetration (V)",
+		"Weight Kgs": "27 Kg"
+	},
+	{
+		"No.": 4,
+		"Part Number": "TKN13 PA",
+		"Description": "Wear Cap",
+		"Weight Kgs": "6.6 Kg"
+	},
+	{
+		"No.": 5,
+		"Part Number": "TKN13 CLSB",
+		"Description": "Full Pin & Rubber",
+		"Weight Kgs": "1.2 Kg"
+	},
+	{
+		"No.": "TKN15",
+		"Part Number": "",
+		"Description": "",
+		"Weight Kgs": ""
+	},
+	{
+		"No.": 1,
+		"Part Number": "TKN15-15100 A10",
+		"Description": "Adapter 100MM",
+		"Weight Kgs": "104 Kg"
+	},
+	{
+		"No.": 2,
+		"Part Number": "TKN15-1590 A10",
+		"Description": "Adapter 90MM",
+		"Weight Kgs": "103 Kg"
+	},
+	{
+		"No.": 3,
+		"Part Number": "TKN15 PR",
+		"Description": "Tip Penetration Rein",
+		"Weight Kgs": "46.5 Kg"
+	},
+	{
+		"No.": 4,
+		"Part Number": "TKN15 PE",
+		"Description": "Tip Penetration (V)",
+		"Weight Kgs": "40 Kg"
+	},
+	{
+		"No.": 5,
+		"Part Number": "TKN15 PA",
+		"Description": "Wear Cap",
+		"Weight Kgs": "9.3 Kg"
+	},
+	{
+		"No.": 6,
+		"Part Number": "TKN15 CLSB",
+		"Description": "Full Pin & Rubber",
+		"Weight Kgs": "1.74 Kg"
+	},
+	{
+		"No.": "TKN17",
+		"Part Number": "",
+		"Description": "",
+		"Weight Kgs": ""
+	},
+	{
+		"No.": 1,
+		"Part Number": "TKN17-17120 A10",
+		"Description": "Adapter 120MM",
+		"Weight Kgs": "143 Kg"
+	},
+	{
+		"No.": 2,
+		"Part Number": "TKN17-15100 A10",
+		"Description": "Adapter 100MM",
+		"Weight Kgs": "146 Kg"
+	},
+	{
+		"No.": 3,
+		"Part Number": "TKN17 PR",
+		"Description": "Tip Penetration Rein",
+		"Weight Kgs": "74 Kg"
+	},
+	{
+		"No.": 4,
+		"Part Number": "TKN17 PE-C",
+		"Description": "Tip Penetration (V)",
+		"Weight Kgs": "58 Kg"
+	},
+	{
+		"No.": 5,
+		"Part Number": "TKN17 PA",
+		"Description": "Wear Cap",
+		"Weight Kgs": "17 Kg"
+	},
+	{
+		"No.": 6,
+		"Part Number": "TKN17 CLSB",
+		"Description": "Full Pin & Rubber",
+		"Weight Kgs": "2.62 Kg"
+	},
+	{
+		"No.": "TOOL REMOVAL",
+		"Part Number": "",
+		"Description": "",
+		"Weight Kgs": ""
+	},
+	{
+		"No.": 1,
+		"Part Number": "TKSH OD",
+		"Description": "Tools",
+		"Weight Kgs": "1.5 Kg"
+	},
+	{
+		"No.": 2,
+		"Part Number": "TKN OD 13 15",
+		"Description": "Tools",
+		"Weight Kgs": "2,4 Kg"
+	},
+	{
+		"No.": 3,
+		"Part Number": "TKN OD 10-11",
+		"Description": "Tools",
+		"Weight Kgs": "2 Kg"
+	},
+	{
+		"No.": 4,
+		"Part Number": "TKN OD 17-19",
+		"Description": "Tools",
+		"Weight Kgs": "4 Kg"
+	}
+]

@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import PDF1 from './pdf/1feurst.pdf'
 import PDF2 from './pdf/2feurst.pdf'
 import PDF3 from './pdf/3feurst.pdf'
+import index from './json/feurst.json'
 
 const ProductDetailAllFeurst = () => {
 	return (
@@ -155,6 +156,30 @@ const ProductDetailAllFeurst = () => {
 
 								<hr />
 							</div>
+						</div>
+
+						<div>
+							<h3 class="text-light bg-info">Feurst</h3>
+							<table class="table table-striped">
+								<thead class="thead-dark">
+									<tr>
+										<th scope="col">No</th>
+										<th scope="col">Part Number</th>
+										<th scope="col">Description</th>
+										<th scope="col">Weight Kgs</th>
+									</tr>
+								</thead>
+								<tbody>
+									{index.map((data, index) => (
+										<tr>
+											<th scope="row">{data['No.']}</th>
+											<td>{data['Part Number']}</td>
+											<td>{data.Description}</td>
+											<td>{data['Weight Kgs']}</td>
+										</tr>
+									))}
+								</tbody>
+							</table>
 						</div>
 
 						<div class="card card-outline-secondary my-4">
