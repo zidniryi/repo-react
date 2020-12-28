@@ -12,7 +12,7 @@ const PivotShaft = () => {
 						<div class="card mt-4">
 							<img
 								class="card-img-top img-fluid"
-								src={require('../../assets/sub/Rollers_1.jpg')}
+								src={require('../../assets/others/PIVOT_SHAFT.jpg')}
 								alt=""
 							/>
 							<div class="card-body">
@@ -58,11 +58,22 @@ const PivotShaft = () => {
 							<div class="card-header">ROLLERS EXCEL </div>
 							<div class="card-body">
 								<iframe
+									title="Youtube Pafindo"
 									width="100%"
 									height="600px"
 									src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTqSoBUDnUrDDxZjmTvz-TZ_eDvqHKKQfqTXC0lVzbyJjssh6YniCUoHymcTzFgkA/pubhtml?widget=true&amp;headers=false"
 								></iframe>
 							</div>
+							<p style={{ color: 'red' }}>
+								<u>
+									<i>
+										<b>
+											For other part numbers not found in this list, please
+											contact us
+										</b>
+									</i>
+								</u>
+							</p>
 						</div>
 						{/* <!-- /.card --> */}
 					</div>

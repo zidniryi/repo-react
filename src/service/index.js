@@ -8,7 +8,7 @@ const ServiceCTP = () => {
 			<NavBar />
 			<div
 				className="container"
-				style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
+				style={{ marginTop: 7 + '%', marginBottom: 100 + 'px' }}
 			>
 				{/* New */}
 				<h2>Services PTS</h2>

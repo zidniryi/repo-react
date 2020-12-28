@@ -80,6 +80,16 @@ const Rollers = () => {
 									))}
 								</tbody>
 							</table>
+							<p style={{ color: 'red' }}>
+								<u>
+									<i>
+										<b>
+											For other part numbers not found in this list, please
+											contact us
+										</b>
+									</i>
+								</u>
+							</p>
 						</div>
 						{/* <!-- /.card --> */}
 					</div>

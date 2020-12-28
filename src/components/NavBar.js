@@ -40,7 +40,10 @@ const NavBar = () => {
 						<div>
 							<Menu
 								customBurgerIcon={
-									<img src={require('../assets/icon/align-left.svg')} />
+									<img
+										src={require('../assets/icon/align-left.svg')}
+										alt="menu pafindo"
+									/>
 								}
 							>
 								<a
@@ -186,6 +189,7 @@ const NavBar = () => {
 								className="img-fluid"
 								width="150"
 								style={{ marginLeft: '35%', marginTop: -50 }}
+								alt="Logo Pafindo"
 							/>
 						</div>
 					</div>
@@ -222,6 +226,7 @@ const NavBar = () => {
 								src={require('../assets/logo/logo.jpg')}
 								className="img-fluid"
 								width="200"
+								alt="Logo Pafindo"
 							/>
 						</Link>
 						<div className="collapse navbar-collapse" id="navbarNavDropdown">
@@ -297,7 +302,7 @@ const NavBar = () => {
 											</div>
 											<div className="col-md-3">
 												<div className="col-megamenu">
-													<h6 className="title">UCR</h6>
+													<h6 className="title">UCR NR</h6>
 													<ul className="list-unstyled">
 														<Link to="/detail-product/ucr-nr">UCR NR</Link>
 													</ul>

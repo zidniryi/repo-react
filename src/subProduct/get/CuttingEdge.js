@@ -18,11 +18,9 @@ const CuttingEdge = () => {
 							<div class="card-body">
 								<h3 class="card-title">Cutting Edge and End Bit</h3>
 								<p>
-									BPT is a product manufacturer for all type of heavy
-									construction equipment, which includes, but is not limited to
-									bulldozer cutting edge and end bits, grader blades and
-									overlays, loader cutting edges, bucket cutting edges, and
-									grouser bars, carbide and white iron product, Etc
+									Main products are construction machinery wear-resistant
+									parts,including complete series of cutting edges, end bits,
+									ripper shanks & adaptors, teeth and side cutters.
 								</p>
 							</div>
 						</div>

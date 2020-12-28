@@ -17,7 +17,7 @@ const TrackFrame = () => {
 								alt=""
 							/>
 							<div class="card-body">
-								<h3 class="card-title">TrackFrame </h3>
+								<h3 class="card-title">Track Frame </h3>
 								<p>
 									TrackFrame by Berco are designed and manufactured for long
 									service life, resulting in low hourly operating costs.
@@ -80,6 +80,16 @@ const TrackFrame = () => {
 									))}
 								</tbody>
 							</table>
+							<p style={{ color: 'red' }}>
+								<u>
+									<i>
+										<b>
+											For other part numbers not found in this list, please
+											contact us
+										</b>
+									</i>
+								</u>
+							</p>
 						</div>
 						{/* <!-- /.card --> */}
 					</div>

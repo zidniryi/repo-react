@@ -20,6 +20,7 @@ const Contact = () => {
 							className="img-fluid"
 							width="50%"
 							style={{ alignSelf: 'center' }}
+							alt="Pafindo"
 						/>
 					</center>
 					<hr />
@@ -35,6 +36,7 @@ const Contact = () => {
 								src={require('../assets/contact/office_pavindo.png')}
 								alt="..."
 								className="img-thumbnail"
+								alt="Pafindo"
 							/>
 							<IconContact
 								name={`Jalan MT Haryono No.108, Balikpapan Kalimantan Timur`}
@@ -62,6 +64,7 @@ const Contact = () => {
 								src={require('../assets/branch/branch_jakarta.jpg')}
 								alt="..."
 								className="img-thumbnail"
+								alt="Pafindo"
 							/>
 							<IconContact
 								name={'Jl. Kapuk Muara, Penjaringan - JAKARTA UTARA'}
@@ -94,6 +97,7 @@ const Contact = () => {
 								src={require('../assets/branch/branch_balikpapan.jpg')}
 								alt="..."
 								className="img-thumbnail"
+								alt="Pafindo"
 							/>
 							<IconContact
 								name={
@@ -112,6 +116,7 @@ const Contact = () => {
 								src={require('../assets/branch/branch_samarinda.jpeg')}
 								alt="..."
 								className="img-thumbnail"
+								alt="Pafindo"
 							/>
 							<IconContact
 								name={
@@ -154,6 +159,53 @@ const Contact = () => {
 								name={`+62 451 485 832 (Fax)`}
 								iconName="fab fa-whatsapp"
 							/>
+						</div>
+
+						<div className="col-sm-6">
+							<b>
+								PACIFIC FIRSTRACK INDONESIA :<br />
+							</b>
+							<br />
+							<img
+								src={require('../assets/branch/branch_palu.jpeg')}
+								alt="..."
+								className="img-thumbnail"
+							/>
+							<IconContact
+								name={
+									'Jl Siak 2 Pergudangan AVIAN blok FF29 - Pekanbaru - Riau, Indonesia'
+								}
+								iconName="fas fa-map-marker-alt"
+							/>
+							<IconContact
+								name={'0813 7878 7758 (Tlp)'}
+								iconName="fa fa-phone"
+							/>
+							<IconContact name={`0853 6393 9828`} iconName="fab fa-whatsapp" />
+						</div>
+					</div>
+					<hr />
+				</div>
+
+				<div className="container">
+					<div className="row">
+						<div className="col-sm-6">
+							<b>
+								PACIFIC FIRSTRACK INDONESIA :<br />
+							</b>
+							<br />
+							<img
+								src={require('../assets/branch/branch_palu.jpeg')}
+								alt="..."
+								className="img-thumbnail"
+							/>
+							<IconContact
+								name={
+									'Jl Noerdin Pandji RT 68 RW 10 No 153 - Sukaraja - Sukarame, Palembang - Indonesia'
+								}
+								iconName="fas fa-map-marker-alt"
+							/>
+							<IconContact name={'+62 711-5705999'} iconName="fa fa-phone" />
 						</div>
 					</div>
 					<hr />

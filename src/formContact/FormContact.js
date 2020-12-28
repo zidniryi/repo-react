@@ -2,76 +2,30 @@ import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 
 const FormContact = () => {
-  return (
-    <Fragment>
-      <NavBar />
-      <div className="body-form" style={{ marginTop: 100 + 'px' }}>
-        <div className="container contact-form">
-          <div className="contact-image">
-            <img
-              src="https://image.ibb.co/kUagtU/rocket_contact.png"
-              alt="rocket_contact"
-            />
-          </div>
-          <form method="post">
-            <h3 style={{ color: 'white', fontWeight: 'bold' }}>
-              Drop Us a Message
-              <p>Lorem Ipsum Dolor Amet</p>
-            </h3>
-            <div className="row">
-              <div className="col-md-6">
-                <div className="form-group">
-                  <input
-                    type="text"
-                    name="txtName"
-                    className="form-control"
-                    placeholder="Your Name *"
-                    value=""
-                  />
-                </div>
-                <div className="form-group">
-                  <input
-                    type="text"
-                    name="txtEmail"
-                    className="form-control"
-                    placeholder="Your Email *"
-                    value=""
-                  />
-                </div>
-                <div className="form-group">
-                  <input
-                    type="text"
-                    name="txtPhone"
-                    className="form-control"
-                    placeholder="Your Phone Number *"
-                    value=""
-                  />
-                </div>
-                <div className="form-group">
-                  <input
-                    type="submit"
-                    name="btnSubmit"
-                    className="btnSubmit"
-                    value="Send Message"
-                  />
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="form-group">
-                  <textarea
-                    name="txtMsg"
-                    className="form-control"
-                    placeholder="Your Message *"
-                    style={{ width: 100 + '%', height: 150 + 'px' }}
-                  ></textarea>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </Fragment>
-  )
+	return (
+		<Fragment>
+			<NavBar />
+			<div className="container" style={{ marginTop: '7%' }}>
+				<iframe
+					allowTransparency="true"
+					// style="min-height:300px; height:inherit; overflow:auto;"
+					style={{ minHeight: '1000px', height: 'inherit', overflow: 'auto' }}
+					width="100%"
+					id="contactform123"
+					name="contactform123"
+					marginwidth="0"
+					marginheight="0"
+					frameborder="0"
+					src="https://form.123formbuilder.com/my-contact-form-5763691.html"
+				>
+					<p>
+						Your browser does not support iframes. The contact form cannot be
+						displayed. Please use another contact method (phone, fax etc)
+					</p>
+				</iframe>
+			</div>
+		</Fragment>
+	)
 }
 
 export default FormContact

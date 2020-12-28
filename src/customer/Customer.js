@@ -2,14 +2,17 @@ import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import CardDeck from '../home/CardDeck'
+import TitleApp from '../title/TitleApp'
 
 const Customer = () => {
 	return (
 		<Fragment>
 			<NavBar />
+			<TitleApp titleApp="Customer Pafindo" />
+
 			<div
 				className="container"
-				style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
+				style={{ marginTop: 7 + '%', marginBottom: 100 + 'px' }}
 			>
 				<h2 style={{ textAlign: 'center', fontWeight: 'bold' }}>
 					What is PAFINDO doing :

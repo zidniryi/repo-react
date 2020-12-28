@@ -51,7 +51,7 @@ const TrackLink = () => {
 						{/* <!-- /.card --> */}
 
 						<div>
-							<h3 class="text-light bg-info">Iddlers</h3>
+							<h3 class="text-light bg-info">TrackLink</h3>
 							<table class="table table-striped">
 								<thead class="thead-dark">
 									<tr>
@@ -74,6 +74,16 @@ const TrackLink = () => {
 									))}
 								</tbody>
 							</table>
+							<p style={{ color: 'red' }}>
+								<u>
+									<i>
+										<b>
+											For other part numbers not found in this list, please
+											contact us
+										</b>
+									</i>
+								</u>
+							</p>
 						</div>
 						{/* <!-- /.card --> */}
 					</div>

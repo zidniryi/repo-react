@@ -63,7 +63,7 @@ const App = () => {
 					<Route exact path={'/sub-tracklink'} component={TrackLink} />
 					<Route exact path={'/sub-trackshoes'} component={TrackShoes} />
 					<Route exact path={'/sub-rollers'} component={Rollers} />
-					<Route exact path={'/sub-iddlers'} component={Iddlers} />
+					<Route exact path={'/sub-idlers'} component={Iddlers} />
 					<Route exact path={'/sub-sprockets'} component={Sprockets} />
 
 					{/* Sub */}

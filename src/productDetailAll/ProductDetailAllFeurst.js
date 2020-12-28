@@ -186,6 +186,7 @@ const ProductDetailAllFeurst = () => {
 							<div class="card-header">PTS (PAFINDO TRACK SERVICE ) :</div>
 							<div class="card-body">
 								<iframe
+									title="YT Pafindo"
 									width="760"
 									height="315"
 									src="https://www.youtube.com/embed/RW9yIMTea-Q"

@@ -22,7 +22,7 @@ const ProductDetailAll = () => {
 							<Link to="/sub-rollers" class="list-group-item active">
 								Rollers
 							</Link>
-							<Link to="/sub-iddlers" class="list-group-item active">
+							<Link to="/sub-idlers" class="list-group-item active">
 								Idlers
 							</Link>
 							<Link to="/sub-sprockets" class="list-group-item active">
@@ -91,7 +91,6 @@ const ProductDetailAll = () => {
 						</div>
 
 						<div class="card card-outline-secondary my-4">
-							<div class="card-header">KOMATSU D375 </div>
 							<div class="card-body">
 								<table class="table table-striped">
 									<thead class="thead-dark">
@@ -380,6 +379,16 @@ const ProductDetailAll = () => {
 										</tr>
 									</tbody>
 								</table>
+								<p style={{ color: 'red' }}>
+									<u>
+										<i>
+											<b>
+												For other part numbers not found in this list, please
+												contact us
+											</b>
+										</i>
+									</u>
+								</p>
 
 								{/* <a href="#" class="btn btn-success">
 									Leave a Review

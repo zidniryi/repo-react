@@ -8,7 +8,7 @@ const Certificate = () => {
 			<NavBar />
 			<div
 				className="container"
-				style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
+				style={{ marginTop: 7 + '%', marginBottom: 100 + 'px' }}
 			>
 				<h2 style={{ textAlign: 'center', fontWeight: 'bold' }}>
 					Certificate:

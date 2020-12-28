@@ -9,10 +9,7 @@ const About = () => {
 			<TitleApp titleApp="About Pafindo" />
 
 			<NavBar />
-			<div
-				className="container"
-				style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
-			>
+			<div className="container" style={{ marginTop: 7 + '%' }}>
 				<h2 style={{ textAlign: 'center', fontWeight: 'bold' }}>About Us :</h2>
 				<hr />
 				<p>

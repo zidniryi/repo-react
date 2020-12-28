@@ -36,7 +36,7 @@ const ProductDetailAllNr = () => {
 						<div class="card mt-4">
 							<img
 								class="card-img-top img-fluid"
-								src={require('../assets/others/tracktor.jpg')}
+								src={require('../assets/others/Foto-NR-main-page1.jpg')}
 								alt=""
 							/>
 							<div class="card-body">

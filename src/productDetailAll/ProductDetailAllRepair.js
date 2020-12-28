@@ -19,6 +19,7 @@ const ProductDetailAllRepair = () => {
 								href={PDF1}
 								target="_blank"
 								class="list-group-item active"
+								rel="noopener noreferrer"
 							>
 								Lihat Catalog 1
 							</a>
@@ -26,6 +27,7 @@ const ProductDetailAllRepair = () => {
 								href={PDF2}
 								target="_blank"
 								class="list-group-item active"
+								rel="noopener noreferrer"
 							>
 								Lihat Catalog 2
 							</a>
@@ -33,6 +35,7 @@ const ProductDetailAllRepair = () => {
 								href={PDF3}
 								target="_blank"
 								class="list-group-item active"
+								rel="noopener noreferrer"
 							>
 								Lihat Catalog 3
 							</a>
@@ -50,10 +53,9 @@ const ProductDetailAllRepair = () => {
 							<div class="card-body">
 								<h3 class="card-title">Deskripsi </h3>
 								<p class="card-text">
-									Standard Bucket : Suitable for digging and
-									loading of soft to medium hard, compact and
-									not very abrasive materials such as earth /
-									rock, sand / gravel, coal, chalk.
+									Standard Bucket : Suitable for digging and loading of soft to
+									medium hard, compact and not very abrasive materials such as
+									earth / rock, sand / gravel, coal, chalk.
 								</p>
 								{/* <span class="text-warning">
 									&#9733; &#9733; &#9733; &#9733; &#9734;
@@ -67,17 +69,15 @@ const ProductDetailAllRepair = () => {
 							<div class="card-header">Product Terbaru</div>
 							<div class="card-body">
 								<p>
-									HD bucket : Suitable for digging and loading
-									mixed earth and rock soils with a high
-									proportion of rock or other abrasive
+									HD bucket : Suitable for digging and loading mixed earth and
+									rock soils with a high proportion of rock or other abrasive
 									materials.
 								</p>
 
 								<hr />
 								<p>
-									XHD bucket : Suitable for digging and
-									loading mixed earth and rock soils with a
-									high proportion of rock and other abrasive
+									XHD bucket : Suitable for digging and loading mixed earth and
+									rock soils with a high proportion of rock and other abrasive
 									and hard materials
 								</p>
 

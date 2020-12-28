@@ -17,7 +17,7 @@ const Iddlers = () => {
 								alt=""
 							/>
 							<div class="card-body">
-								<h3 class="card-title">Iddlers </h3>
+								<h3 class="card-title">Idlers </h3>
 								<p>
 									We also place great emphasis on wear resistance for idlers. No
 									matter whether cast, forged or welded, Berco idlers offer
@@ -52,7 +52,7 @@ const Iddlers = () => {
 						{/* <!-- /.card --> */}
 
 						<div>
-							<h3 class="text-light bg-info">Iddlers</h3>
+							<h3 class="text-light bg-info">Idlers</h3>
 							<table class="table table-striped">
 								<thead class="thead-dark">
 									<tr>
@@ -75,6 +75,16 @@ const Iddlers = () => {
 									))}
 								</tbody>
 							</table>
+							<p style={{ color: 'red' }}>
+								<u>
+									<i>
+										<b>
+											For other part numbers not found in this list, please
+											contact us
+										</b>
+									</i>
+								</u>
+							</p>
 						</div>
 						{/* <!-- /.card --> */}
 					</div>
