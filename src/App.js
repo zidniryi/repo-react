@@ -40,6 +40,7 @@ import EqualizerBar from './subProduct/ofm/EqualizerBar'
 import PivotShaft from './subProduct/ofm/PivotShaft'
 import SwingBearing from './subProduct/ofm/SwingBearing'
 import CuttingEdge from './subProduct/get/CuttingEdge'
+import Tooth from './subProduct/get/Tooth'
 
 const App = () => {
 	return (
@@ -88,6 +89,7 @@ const App = () => {
 						path={'/sub-cutting-edge-and-end-bit'}
 						component={CuttingEdge}
 					/>
+					<Route exact path={'/sub-tooth-bucket-etc'} component={Tooth} />
 
 					{/* Sub */}
 

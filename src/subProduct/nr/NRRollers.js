@@ -14,7 +14,7 @@ const NRRollers = () => {
 						<div class="card mt-4">
 							<img
 								class="card-img-top img-fluid"
-								src={require('../../assets/sub/Rollers_1.jpg')}
+								src={require('../../assets/sub/Track-Rollers-Bottom-Rollers-2.png')}
 								alt=""
 							/>
 							<div class="card-body">

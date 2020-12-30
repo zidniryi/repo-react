@@ -1,0 +1,122 @@
+[
+	{
+		"Model": "PC200",
+		"Part Number": "205-70-19570",
+		"Description": "Tooth Bucket"
+	},
+	{
+		"Model": "",
+		"Part Number": "205-70-19570L",
+		"Description": "Tooth Bucket"
+	},
+	{
+		"Model": "",
+		"Part Number": "205-70-19570TL",
+		"Description": "Tooth Bucket"
+	},
+	{
+		"Model": "",
+		"Part Number": "205-939-7120",
+		"Description": "Adapter"
+	},
+	{
+		"Model": "PC300",
+		"Part Number": "207-70-14151",
+		"Description": "Tooth Bucket"
+	},
+	{
+		"Model": "",
+		"Part Number": "207-70-14151TL",
+		"Description": "Tooth Bucket"
+	},
+	{
+		"Model": "",
+		"Part Number": "207-939-3120",
+		"Description": "Adapter"
+	},
+	{
+		"Model": "PC400",
+		"Part Number": "208-70-14152",
+		"Description": "Tooth Bucket"
+	},
+	{
+		"Model": "",
+		"Part Number": "208-70-14152T",
+		"Description": "Tooth Bucket"
+	},
+	{
+		"Model": "",
+		"Part Number": "208-939-5120",
+		"Description": "Adapter"
+	},
+	{
+		"Model": "",
+		"Part Number": "",
+		"Description": ""
+	},
+	{
+		"Model": "Model",
+		"Part Number": "Part Number",
+		"Description": "Description"
+	},
+	{
+		"Model": "D8N/D9N",
+		"Part Number": null,
+		"Description": "Ripper Shank"
+	},
+	{
+		"Model": "",
+		"Part Number": "9W2452",
+		"Description": "Tip Ripper"
+	},
+	{
+		"Model": "",
+		"Part Number": "6J8814",
+		"Description": "Shank Protector"
+	},
+	{
+		"Model": "",
+		"Part Number": null,
+		"Description": "Shank Protector"
+	},
+	{
+		"Model": "D10",
+		"Part Number": "118-2140",
+		"Description": "Ripper Shank"
+	},
+	{
+		"Model": "",
+		"Part Number": "4T5501 / 4T4502",
+		"Description": "Tip Ripper"
+	},
+	{
+		"Model": "",
+		"Part Number": "9W8365",
+		"Description": "Shank Protector"
+	},
+	{
+		"Model": "",
+		"Part Number": "6Y8960",
+		"Description": "Shank Protector"
+	},
+	{
+		"Model": "D375",
+		"Part Number": "195-78-51151",
+		"Description": "Ripper Shank"
+	},
+	{
+		"Model": "",
+		"Part Number": "195-78-71380",
+		"Description": "Ripper Shank"
+	},
+	{
+		"Model": "",
+		"Part Number": "195-78-71320",
+		"Description": "Tip Ripper"
+	},
+	{
+		"Model": "",
+		"Part Number": "195-78-71111",
+		"Description": "Shank Protector"
+	}
+]

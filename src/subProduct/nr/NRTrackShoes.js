@@ -11,11 +11,11 @@ const NRTrackShoes = () => {
 				<div class="row">
 					<div class="col-lg-9">
 						<div class="card mt-4">
-							{/* <img
+							<img
 								class="card-img-top img-fluid"
-								src={require('../../assets/sub/Sprockets_1.jpg')}
+								src={require('../../assets/sub/Trachshoes.jpg')}
 								alt=""
-							/> */}
+							/>
 							<div class="card-body">
 								<h3 class="card-title">TrackShoes </h3>
 								<p>

@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-import PDF2 from './pdf/2feurst.pdf'
 import { Link } from 'react-router-dom'
 
 const ProductDetailAllGet = () => {
@@ -20,9 +19,9 @@ const ProductDetailAllGet = () => {
 							>
 								Cutting Edge and End Bit
 							</Link>
-							<a href={PDF2} target="_blank" class="list-group-item active">
+							<Link to={'/sub-tooth-bucket-etc'} class="list-group-item active">
 								Tooth Bucket, Adapter, etc
-							</a>
+							</Link>
 						</div>
 					</div>
 					{/* <!-- /.col-lg-3 --> */}

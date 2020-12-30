@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react'
 import Footer from '../../components/Footer'
 import NavBar from '../../components/NavBar'
-import index from './json/cutting.json'
+import index from './json/tooth.json'
 
-const CuttingEdge = () => {
+const Tooth = () => {
 	return (
 		<Fragment>
 			<NavBar />
@@ -18,7 +18,7 @@ const CuttingEdge = () => {
 								alt=""
 							/>
 							<div class="card-body">
-								<h3 class="card-title">Cutting Edge and End Bit</h3>
+								<h3 class="card-title">Tooth Bucket, Adapter, etc</h3>
 								<p>
 									Main products are construction machinery wear-resistant
 									parts,including complete series of cutting edges, end bits,
@@ -26,22 +26,32 @@ const CuttingEdge = () => {
 								</p>
 								<p>
 									<ul>
-										<li>Full range of cutting edges and end bits</li>
+										<li>
+											Full range of CAT and KOM excavator tooth bucket system
+										</li>
+										<li>Full range of CAT and KOM dozer ripper shank system</li>
 										<li>OEM and custom designed parts</li>
-										<li>Boron steel and carbon steel</li>
+										<li>One Piece forging techology</li>
 									</ul>
 								</p>
 							</div>
 						</div>
 						<div>
-							<h3 class="text-light bg-info">Cutting Edge and End Bit</h3>
+							<h3 class="text-light bg-info">Tooth Bucket, Adapter, etc</h3>
 							<table class="table table-striped">
+								<thead class="thead-dark">
+									<tr>
+										<th scope="col">MODEL</th>
+										<th scope="col">PART NUMBER</th>
+										<th scope="col">DESCRIPTION</th>
+									</tr>
+								</thead>
 								<tbody>
 									{index.map((data, index) => (
 										<tr>
-											<td>{data.__3}</td>
-											<td>{data.__4}</td>
-											<td>{data.__5}</td>
+											<td>{data.Model}</td>
+											<td>{data['Part Number']}</td>
+											<td>{data.Description}</td>
 										</tr>
 									))}
 								</tbody>
@@ -65,4 +75,4 @@ const CuttingEdge = () => {
 	)
 }
 
-export default CuttingEdge
+export default Tooth
